@@ -22,24 +22,45 @@ Deploying below for the option that doesn't need your laptop switched on.
 
 ## Deploying to a public URL (GitHub Pages)
 
-The repo is already initialised and committed. To publish:
+The repo is already initialised, committed on `main`, and clean.
+
+1. Create an empty repo at <https://github.com/new> — name it `dmv-practice`,
+   visibility **Public** (Pages needs Public on a free account). Do **not** add
+   a README, .gitignore or licence; that would create a commit to merge around.
+
+2. Point this repo at it and push. Git Credential Manager is configured, so the
+   first push opens a browser window to sign in to GitHub:
+
+   ```bash
+   git remote add origin https://github.com/<your-username>/dmv-practice.git
+   git push -u origin main
+   ```
+
+3. Enable Pages — repo **Settings → Pages → Source: Deploy from a branch →
+   branch `main`, folder `/ (root)` → Save**. The site is live at
+   `https://<your-username>.github.io/dmv-practice/` a minute or two later.
+
+If you have the `gh` CLI on another machine, `gh repo create dmv-practice
+--public --source=. --push` collapses steps 1–2.
+
+### Before the first push
+
+`git config --global user.name/user.email` are unset on this machine, so the
+initial commit was made with `-c` overrides. Set them before committing again:
 
 ```bash
-gh repo create dmv-practice --public --source=. --push
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 ```
 
-Then enable Pages — Settings → Pages → Source: *Deploy from a branch* →
-branch `main`, folder `/ (root)` → Save. The site appears at
-`https://<your-username>.github.io/dmv-practice/` within a minute or two.
-
-Without the `gh` CLI: create an empty repo on github.com, then
+Note that the commit author email becomes publicly visible once the repo is
+public. To avoid that, use GitHub's no-reply address
+(`<id>+<username>@users.noreply.github.com`, from Settings → Emails) and rewrite
+the existing commit before pushing:
 
 ```bash
-git remote add origin https://github.com/<your-username>/dmv-practice.git
-git push -u origin main
+git commit --amend --reset-author --no-edit
 ```
-
-and enable Pages the same way.
 
 Any static host works equally well — Netlify, Cloudflare Pages, Vercel — since
 there is nothing to build.
