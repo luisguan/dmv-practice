@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>加州駕駛筆試練習</title>
+<meta name="description" content="California DMV Class C knowledge test practice in Chinese, with handbook-cited explanations.">
+<meta name="theme-color" content="#14532d">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1 class="topbar__title" data-t="appTitle">加州駕駛筆試練習</h1>
+  <div class="topbar__tools">
+    <div class="segmented" role="group" aria-label="字體/字体">
+      <button type="button" class="segmented__btn" data-size="1">A</button>
+      <button type="button" class="segmented__btn" data-size="2">A</button>
+      <button type="button" class="segmented__btn" data-size="3">A</button>
+    </div>
+    <div class="segmented" role="group" aria-label="繁體/简体">
+      <button type="button" class="segmented__btn" data-script="hant">繁</button>
+      <button type="button" class="segmented__btn" data-script="hans">简</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ───────────────────────── HOME ───────────────────────── -->
+  <section class="screen" id="screen-home" aria-labelledby="home-h">
+    <h2 class="sr-only" id="home-h" data-t="home">主頁</h2>
+
+    <div class="stats" id="stats"></div>
+
+    <nav class="modes">
+      <button type="button" class="mode" data-mode="exam46">
+        <span class="mode__name" data-t="modeExam46">模擬考試</span>
+        <span class="mode__desc" data-t="modeExam46Desc">46 題，答對 38 題及格。與正式筆試相同。</span>
+      </button>
+      <button type="button" class="mode" data-mode="exam18">
+        <span class="mode__name" data-t="modeExam18">續期模擬</span>
+        <span class="mode__desc" data-t="modeExam18Desc">18 題，答對 15 題及格。適用於換領駕照。</span>
+      </button>
+      <button type="button" class="mode" data-mode="practice">
+        <span class="mode__name" data-t="modePractice">練習模式</span>
+        <span class="mode__desc" data-t="modePracticeDesc">每題立即講解，答錯會說明原因。</span>
+      </button>
+      <button type="button" class="mode" data-mode="wrong">
+        <span class="mode__name" data-t="modeWrong">錯題本</span>
+        <span class="mode__desc" data-t="modeWrongDesc">只練習做錯過的題目。連續答對兩次便移除。</span>
+        <span class="mode__badge" id="wrong-count" hidden></span>
+      </button>
+      <button type="button" class="mode" data-mode="official">
+        <span class="mode__name" data-t="modeOfficial">官方樣題</span>
+        <span class="mode__desc" data-t="modeOfficialDesc">DMV 網站公佈的四份樣本試題，原文照錄。</span>
+      </button>
+    </nav>
+
+    <div class="official-picker" id="official-picker" hidden>
+      <button type="button" class="official-btn" data-official="1">樣題 1</button>
+      <button type="button" class="official-btn" data-official="2">樣題 2</button>
+      <button type="button" class="official-btn" data-official="3">樣題 3</button>
+      <button type="button" class="official-btn" data-official="4">樣題 4</button>
+    </div>
+
+    <button type="button" class="linkbtn" id="reset-btn" data-t="resetProgress">清除學習紀錄</button>
+
+    <p class="disclaimer" data-t="disclaimer"></p>
+  </section>
+
+  <!-- ───────────────────────── QUIZ ───────────────────────── -->
+  <section class="screen" id="screen-quiz" hidden aria-labelledby="quiz-h">
+    <h2 class="sr-only" id="quiz-h" data-t="quiz">答題</h2>
+
+    <div class="quizbar">
+      <button type="button" class="quizbar__quit" id="quit-btn" aria-label="返回">✕</button>
+      <div class="quizbar__meta">
+        <span id="q-counter" class="quizbar__counter"></span>
+        <span id="q-score" class="quizbar__score"></span>
+      </div>
+    </div>
+    <div class="progress"><div class="progress__fill" id="progress-fill"></div></div>
+
+    <div class="qcard">
+      <p class="qcard__source" id="q-source"></p>
+      <p class="qcard__text" id="q-text"></p>
+      <div class="choices" id="choices" role="group"></div>
+      <div class="feedback" id="feedback" hidden></div>
+    </div>
+
+    <div class="actionbar">
+      <button type="button" class="btn btn--primary" id="next-btn"></button>
+    </div>
+  </section>
+
+  <!-- ──────────────────────── RESULTS ─────────────────────── -->
+  <section class="screen" id="screen-results" hidden aria-labelledby="res-h">
+    <h2 class="sr-only" id="res-h" data-t="results">成績</h2>
+
+    <div class="scorecard" id="scorecard"></div>
+    <div class="review" id="review"></div>
+
+    <div class="actionbar actionbar--stack">
+      <button type="button" class="btn btn--primary" id="retry-wrong-btn"></button>
+      <button type="button" class="btn btn--ghost" id="home-btn"></button>
+    </div>
+  </section>
+
+</main>
+
+<script src="data/bank.js"></script>
+<script src="data/official.js"></script>
+<script src="data/handbook-1.js"></script>
+<script src="data/handbook-2.js"></script>
+<script src="data/handbook-3.js"></script>
+<script src="data/handbook-4.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Question bank validation</title>
+<style>
+  body { font: 15px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; margin: 24px; }
+  h1 { font-size: 18px; }
+  .ok   { color: #12692f; font-weight: 700; }
+  .bad  { color: #a31414; font-weight: 700; }
+  .warn { color: #8a6100; }
+  li { margin: 2px 0; }
+</style>
+</head>
+<body>
+<h1>Question bank validation</h1>
+<div id="out">running…</div>
+
+<script src="../data/bank.js"></script>
+<script src="../data/official.js"></script>
+<script src="../data/handbook-1.js"></script>
+<script src="../data/handbook-2.js"></script>
+<script src="../data/handbook-3.js"></script>
+<script src="../data/handbook-4.js"></script>
+<script src="validate-bank.js"></script>
+<script>
+  var r = window.validateBank();
+  var html = '<p>total <b>' + r.total + '</b> &middot; shuffled pool <b>' + r.pool +
+             '</b> &middot; official <b>' + r.official + '</b> &middot; handbook <b>' + r.handbook + '</b></p>';
+
+  html += r.errors.length
+    ? '<p class="bad">' + r.errors.length + ' ERROR(S)</p><ul><li>' + r.errors.join('</li><li>') + '</li></ul>'
+    : '<p class="ok">no errors</p>';
+
+  if (r.warnings.length) {
+    html += '<p class="warn">' + r.warnings.length + ' warning(s)</p><ul class="warn"><li>' +
+            r.warnings.join('</li><li>') + '</li></ul>';
+  }
+
+  document.getElementById('out').innerHTML = html;
+  window.__report = r;
+</script>
+</body>
+</html>
