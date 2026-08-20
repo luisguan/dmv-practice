@@ -1,6 +1,8 @@
 # The handbook PDF is 6.2 MB and freely re-downloadable; the extracted text is
 # what the citations are checked against, so that one is committed.
 tools/handbook.pdf
+tools/handbook-en.pdf
+tools/_cited-en.txt
 
 .DS_Store
 Thumbs.db

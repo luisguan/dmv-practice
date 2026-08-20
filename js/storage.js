@@ -4,8 +4,10 @@
 window.Store = (function () {
   var KEY = 'ca-dmv-practice.v1';
 
+  var LANGS = ['hant', 'hans', 'en'];
+
   var DEFAULTS = {
-    script: 'hant',
+    lang: 'hant',
     size: 1,
     // id -> { seen, wrong, streak }  streak = consecutive correct answers
     stats: {}
@@ -19,7 +21,10 @@ window.Store = (function () {
       if (!raw) return clone(DEFAULTS);
       var parsed = JSON.parse(raw);
       return {
-        script: parsed.script === 'hans' ? 'hans' : 'hant',
+        // `script` is the pre-English field name; keep reading it so an
+        // existing user's saved preference survives the upgrade.
+        lang: LANGS.indexOf(parsed.lang || parsed.script) >= 0
+                ? (parsed.lang || parsed.script) : 'hant',
         size: [1, 2, 3].indexOf(parsed.size) >= 0 ? parsed.size : 1,
         stats: parsed.stats && typeof parsed.stats === 'object' ? parsed.stats : {}
       };
@@ -40,8 +45,8 @@ window.Store = (function () {
   }
 
   return {
-    getScript: function () { return state.script; },
-    setScript: function (s) { state.script = (s === 'hans' ? 'hans' : 'hant'); save(); },
+    getLang: function () { return state.lang; },
+    setLang: function (l) { state.lang = LANGS.indexOf(l) >= 0 ? l : 'hant'; save(); },
 
     getSize: function () { return state.size; },
     setSize: function (n) { state.size = n; save(); },

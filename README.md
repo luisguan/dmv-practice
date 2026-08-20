@@ -1,9 +1,10 @@
-# 加州駕駛筆試練習 · California DMV Knowledge Test Practice (Chinese)
+# 加州駕駛筆試練習 · California DMV Knowledge Test Practice
 
 A phone-friendly practice app for the California Class C driver's licence written
-test, in Traditional and Simplified Chinese. When you answer wrong it tells you
-**why that answer was wrong**, gives the correct one, and cites the page of the
-official Chinese handbook it came from.
+test, in **Traditional Chinese, Simplified Chinese, and English** — switchable at
+any time, including mid-question. When you answer wrong it tells you **why that
+answer was wrong**, gives the correct one, and cites the handbook page it came
+from.
 
 Plain HTML, CSS and JavaScript. No build step, no dependencies, no server-side
 code, no tracking. Everything is stored in the browser's `localStorage`.
@@ -20,50 +21,21 @@ To use it on a phone on the same WiFi, find your computer's local IP
 (`ipconfig` on Windows) and open `http://<that-ip>:8123` on the phone — but see
 Deploying below for the option that doesn't need your laptop switched on.
 
-## Deploying to a public URL (GitHub Pages)
+## Deployed
 
-The repo is already initialised, committed on `main`, and clean.
-
-1. Create an empty repo at <https://github.com/new> — name it `dmv-practice`,
-   visibility **Public** (Pages needs Public on a free account). Do **not** add
-   a README, .gitignore or licence; that would create a commit to merge around.
-
-2. Point this repo at it and push. Git Credential Manager is configured, so the
-   first push opens a browser window to sign in to GitHub:
-
-   ```bash
-   git remote add origin https://github.com/<your-username>/dmv-practice.git
-   git push -u origin main
-   ```
-
-3. Enable Pages — repo **Settings → Pages → Source: Deploy from a branch →
-   branch `main`, folder `/ (root)` → Save**. The site is live at
-   `https://<your-username>.github.io/dmv-practice/` a minute or two later.
-
-If you have the `gh` CLI on another machine, `gh repo create dmv-practice
---public --source=. --push` collapses steps 1–2.
-
-### Before the first push
-
-`git config --global user.name/user.email` are unset on this machine, so the
-initial commit was made with `-c` overrides. Set them before committing again:
+Live at <https://luisguan.github.io/dmv-practice/>, served by GitHub Pages from
+`main` at the repo root. To publish a change:
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
+git push
 ```
 
-Note that the commit author email becomes publicly visible once the repo is
-public. To avoid that, use GitHub's no-reply address
-(`<id>+<username>@users.noreply.github.com`, from Settings → Emails) and rewrite
-the existing commit before pushing:
+Pages rebuilds within a minute or two. There is no build step and no Actions
+workflow — the files in the repo are exactly what is served. Any other static
+host (Netlify, Cloudflare Pages, Vercel) would work the same way.
 
-```bash
-git commit --amend --reset-author --no-edit
-```
-
-Any static host works equally well — Netlify, Cloudflare Pages, Vercel — since
-there is nothing to build.
+All asset paths are relative, so the site works from the `/dmv-practice/`
+subpath. Do not change them to absolute `/…` paths — that would break it.
 
 ## Modes
 
@@ -91,8 +63,13 @@ modes explain as you go.
   bicycles and motorcycles, DUI limits, lane markings, freeway merging, school
   and work zones, adverse conditions, insurance and registration.
 
-Every question carries both scripts, a rationale, a one-line explanation for
-**each** wrong choice, and a handbook page number.
+Every question carries all three languages, a rationale, a one-line explanation
+for **each** wrong choice, and a handbook page number.
+
+English lives in separate overlay files (`en-official.js`, `en-handbook-1.js`,
+`en-handbook-2.js`) that attach to a question by id via `EN()`. Keeping it apart
+from the Chinese means editing one can never disturb the other — and the
+verbatim Chinese, which is the harder thing to reconstruct, stays untouched.
 
 ### Where the answers come from
 
@@ -107,36 +84,57 @@ legal to **drive off the road** to pass another vehicle?"* while the Chinese
 edition drops "off the road", which makes the question look ambiguous. The
 explanation for `official-t1-q1` points this out.
 
-### Simplified Chinese
+### The three languages
 
-Written by hand, not machine-converted. DMV's Chinese uses Hong Kong register
-that differs from mainland usage as *vocabulary*, not just glyphs — 行車線/车道,
-泊車/停车, 腳踏車/自行车, 煞車/刹车, 訊號燈/信号灯. A glyph-level conversion
-would produce "行车线", which reads wrong. **Traditional is authoritative**;
-never regenerate it from the Simplified.
+All three list the choices **in the same order**, because a single `answer` index
+is shared across them. DMV's own English and Chinese editions order the choices
+*differently*, so the English text here is reordered to match the Chinese. Never
+restore DMV's English ordering without also remapping `answer` — the validator
+checks the counts but cannot catch a silent reordering.
+
+**English** for the 40 official questions is DMV's own wording, verbatim,
+including its typos ("with 5 days", "Occuring"). The 80 handbook questions follow
+the English handbook's terminology.
+
+**Simplified Chinese** was written by hand, not machine-converted. DMV's Chinese
+uses Hong Kong register that differs from mainland usage as *vocabulary*, not
+just glyphs — 行車線/车道, 泊車/停车, 腳踏車/自行车, 煞車/刹车, 訊號燈/信号灯. A
+glyph-level conversion would produce "行车线", which reads wrong.
+**Traditional is authoritative**; never regenerate it from the Simplified.
 
 ### Editing questions
 
-Data lives in `data/*.js`, one `Q({...})` call per question. After any edit open
-`tools/validate.html` in a browser — it checks that every `answer` index is in
-range, both scripts are present with matching choice counts, `whyWrong` has an
-entry per wrong choice and `null` at the answer, page numbers are within 1–92,
-and no two pool questions are identical. It needs no tooling beyond a browser.
+Chinese lives in `data/handbook-*.js` and `data/official.js`, one `Q({...})` call
+per question. English lives in `data/en-*.js`, one `EN(id, {...})` call per
+question. After any edit open `tools/validate.html` in a browser — it checks that
+every `answer` index is in range, all three languages are present with matching
+choice counts, `whyWrong` has an entry per wrong choice and `null` at the answer,
+page numbers are within 1–92, no `EN()` call points at a missing id, and no two
+pool questions are identical. It needs no tooling beyond a browser.
 
 ## Handbook text
 
-`tools/handbook.txt` is the extracted Chinese handbook with page markers, used to
-verify the citations. Page numbers in the app are the **printed** page numbers
-shown on the handbook page itself, which run 6 lower than the PDF page numbers.
+`tools/handbook.txt` (Chinese) and `tools/handbook-en.txt` (English) are the
+extracted handbooks with page markers, used to verify the citations.
 
-To regenerate it, download the PDF from
-<https://www.dmv.ca.gov/portal/file/california-driver-handbook-chinese-pdf/> and:
+Page numbers in the app are the **printed** page numbers shown on the page
+itself, which run 6 lower than the PDF page numbers. The English and Chinese
+handbooks are **paginated identically** — every cited page was checked in both —
+so one page number serves all three languages.
+
+To regenerate, download the PDFs from
+<https://www.dmv.ca.gov/portal/file/california-driver-handbook-chinese-pdf/> and
+<https://www.dmv.ca.gov/portal/file/california-driver-handbook-pdf> then:
 
 ```bash
 bash tools/extract-handbook.sh tools/handbook.pdf tools/handbook.txt
 ```
 
-Needs `pdftotext` (poppler). The PDF is AES-256 encrypted with an empty user
+```bash
+bash tools/extract-handbook.sh tools/handbook-en.pdf tools/handbook-en.txt
+```
+
+Needs `pdftotext` (poppler). The PDFs are AES-256 encrypted with an empty user
 password, which pdftotext opens without any special handling.
 
 ## Accuracy and limits

@@ -23,7 +23,7 @@ window.validateBank = function () {
     if (q.source !== 'official' && q.source !== 'handbook') err(id, 'bad source: ' + q.source);
     if (q.source === 'official' && (!q.test || !q.num)) err(id, 'official question missing test/num');
 
-    ['hant', 'hans'].forEach(function (s) {
+    ['hant', 'hans', 'en'].forEach(function (s) {
       if (!q[s]) { err(id, 'missing ' + s); return; }
       if (!q[s].q || !q[s].q.trim()) err(id, s + '.q is empty');
       if (!Array.isArray(q[s].choices)) { err(id, s + '.choices is not an array'); return; }
@@ -33,18 +33,22 @@ window.validateBank = function () {
       });
     });
 
-    if (q.hant && q.hans && Array.isArray(q.hant.choices) && Array.isArray(q.hans.choices) &&
-        q.hant.choices.length !== q.hans.choices.length) {
-      err(id, 'hant/hans choice counts differ (' +
-              q.hant.choices.length + ' vs ' + q.hans.choices.length + ')');
-    }
+    // All three languages must list the choices in the same order and count,
+    // because a single `answer` index is shared across them.
+    ['hans', 'en'].forEach(function (other) {
+      if (q.hant && q[other] && Array.isArray(q.hant.choices) && Array.isArray(q[other].choices) &&
+          q.hant.choices.length !== q[other].choices.length) {
+        err(id, 'hant/' + other + ' choice counts differ (' +
+                q.hant.choices.length + ' vs ' + q[other].choices.length + ')');
+      }
+    });
 
     var n = q.hant && Array.isArray(q.hant.choices) ? q.hant.choices.length : 0;
     if (typeof q.answer !== 'number' || q.answer < 0 || q.answer >= n) {
       err(id, 'answer index ' + q.answer + ' out of range (0-' + (n - 1) + ')');
     }
 
-    if (!q.rationale || !q.rationale.hant || !q.rationale.hans) err(id, 'rationale missing hant/hans');
+    if (!q.rationale || !q.rationale.hant || !q.rationale.hans || !q.rationale.en) err(id, 'rationale missing a language');
 
     if (!Array.isArray(q.whyWrong)) {
       err(id, 'whyWrong is not an array');
@@ -55,16 +59,16 @@ window.validateBank = function () {
       q.whyWrong.forEach(function (w, wi) {
         if (wi === q.answer) {
           if (w !== null) err(id, 'whyWrong[' + wi + '] should be null (it is the answer)');
-        } else if (!w || !w.hant || !w.hans) {
-          err(id, 'whyWrong[' + wi + '] missing hant/hans');
+        } else if (!w || !w.hant || !w.hans || !w.en) {
+          err(id, 'whyWrong[' + wi + '] missing a language');
         }
       });
     }
 
     if (!q.ref || typeof q.ref.page !== 'number') err(id, 'ref.page missing or not a number');
     else if (q.ref.page < 1 || q.ref.page > 92) err(id, 'ref.page ' + q.ref.page + ' outside 1-92');
-    if (!q.ref || !q.ref.section || !q.ref.section.hant || !q.ref.section.hans) {
-      err(id, 'ref.section missing hant/hans');
+    if (!q.ref || !q.ref.section || !q.ref.section.hant || !q.ref.section.hans || !q.ref.section.en) {
+      err(id, 'ref.section missing a language');
     }
 
     if (q.dupeOf && !bank.some(function (o) { return o.id === q.dupeOf; })) {
@@ -82,6 +86,12 @@ window.validateBank = function () {
       }
       if (!seenText[key]) seenText[key] = q.id;
     }
+  });
+
+  // EN() called with an id that matches nothing means an overlay entry that
+  // silently did nothing -- that question would render blank in English.
+  (window.__enOrphans || []).forEach(function (id) {
+    errors.push('[en overlay] EN("' + id + '") does not match any question id');
   });
 
   var pool = bank.filter(function (q) { return !q.dupeOf; });

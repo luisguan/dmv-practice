@@ -88,6 +88,7 @@ body {
 }
 .segmented__btn[data-size="2"] { font-size: .95rem; }
 .segmented__btn[data-size="3"] { font-size: 1.12rem; }
+.segmented__btn--wide { min-width: 46px; font-size: .72rem; font-weight: 700; letter-spacing: .04em; }
 .segmented__btn[aria-pressed="true"] { background: var(--brand-ink); color: var(--brand); font-weight: 700; }
 
 /* ── screens ───────────────────────────────────────────────────────────── */
@@ -204,6 +205,19 @@ body {
 
 .actionbar { margin-top: 20px; padding-bottom: calc(env(safe-area-inset-bottom) + 12px); }
 .actionbar--stack { display: flex; flex-direction: column; gap: 10px; }
+
+/* The quiz action bar sticks to the bottom of the viewport. Without this, a
+   wrong answer expands the explanation card and shoves the button below the
+   fold, so the reader has to scroll down every single time just to continue.
+   Negative inline margins let its background span the full width even though
+   .screen is padded. */
+.actionbar--sticky {
+  position: sticky; bottom: 0; z-index: 5;
+  margin-inline: calc(var(--pad) * -1);
+  padding: 12px var(--pad) calc(env(safe-area-inset-bottom) + 12px);
+  background: var(--bg);
+  border-top: 1px solid var(--line);
+}
 
 .btn {
   width: 100%; min-height: var(--tap); padding: 14px 20px;

@@ -23,13 +23,13 @@
   /* ── helpers ─────────────────────────────────────────────────────────── */
 
   function t() {
-    var dict = window.I18N[Store.getScript()];
+    var dict = window.I18N[Store.getLang()];
     var val = dict[arguments[0]];
     if (typeof val !== 'function') return val;
     return val.apply(null, [].slice.call(arguments, 1));
   }
 
-  function script() { return Store.getScript(); }
+  function lang() { return Store.getLang(); }
 
   function shuffled(arr) {
     var a = arr.slice();
@@ -52,13 +52,13 @@
   function applyPrefs() {
     var root = document.documentElement;
     root.setAttribute('data-size', String(Store.getSize()));
-    root.lang = script() === 'hans' ? 'zh-Hans' : 'zh-Hant';
+    root.lang = { hant: 'zh-Hant', hans: 'zh-Hans', en: 'en' }[lang()] || 'zh-Hant';
 
     document.querySelectorAll('[data-size]').forEach(function (b) {
       b.setAttribute('aria-pressed', String(Number(b.dataset.size) === Store.getSize()));
     });
-    document.querySelectorAll('[data-script]').forEach(function (b) {
-      b.setAttribute('aria-pressed', String(b.dataset.script === script()));
+    document.querySelectorAll('[data-lang]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.lang === lang()));
     });
 
     document.querySelectorAll('[data-t]').forEach(function (el) {
@@ -149,7 +149,7 @@
   function renderQuestion() {
     var item = S.items[S.index];
     var q = item.q;
-    var text = q[script()];
+    var text = q[lang()];
     var chosen = S.answers[S.index];
     var graded = S.cfg.immediate && chosen !== null;
 
@@ -207,12 +207,12 @@
     var html = '';
     if (why) {
       html += '<div class="fb__row fb__row--bad"><span class="fb__label">' +
-              t('yourAnswer') + '</span>' + esc(why[script()]) + '</div>';
+              t('yourAnswer') + '</span>' + esc(why[lang()]) + '</div>';
     }
     html += '<div class="fb__row fb__row--good"><span class="fb__label">' +
-            t('correctAnswer') + '</span>' + esc(q[script()].choices[q.answer]) +
-            ' — ' + esc(q.rationale[script()]) + '</div>';
-    html += '<div class="fb__ref">' + esc(t('refLine', q.ref.page, q.ref.section[script()])) + '</div>';
+            t('correctAnswer') + '</span>' + esc(q[lang()].choices[q.answer]) +
+            ' — ' + esc(q.rationale[lang()]) + '</div>';
+    html += '<div class="fb__ref">' + esc(t('refLine', q.ref.page, q.ref.section[lang()])) + '</div>';
 
     fb.innerHTML = html;
     fb.hidden = false;
@@ -279,16 +279,16 @@
   }
 
   function reviewItem(q, chosen) {
-    var text = q[script()];
+    var text = q[lang()];
     var why = chosen === null ? null : q.whyWrong[chosen];
     return '<div class="review__item">' +
       '<p class="review__q">' + esc(text.q) + '</p>' +
       (chosen === null ? '' :
         '<p class="review__line review__line--bad">✗ ' + esc(text.choices[chosen]) + '</p>' +
-        (why ? '<p class="review__line">' + esc(why[script()]) + '</p>' : '')) +
+        (why ? '<p class="review__line">' + esc(why[lang()]) + '</p>' : '')) +
       '<p class="review__line review__line--good">✓ ' + esc(text.choices[q.answer]) + '</p>' +
-      '<p class="review__line">' + esc(q.rationale[script()]) + '</p>' +
-      '<p class="review__ref">' + esc(t('refLine', q.ref.page, q.ref.section[script()])) + '</p>' +
+      '<p class="review__line">' + esc(q.rationale[lang()]) + '</p>' +
+      '<p class="review__ref">' + esc(t('refLine', q.ref.page, q.ref.section[lang()])) + '</p>' +
       '</div>';
   }
 
@@ -302,9 +302,9 @@
       });
     });
 
-    document.querySelectorAll('[data-script]').forEach(function (b) {
+    document.querySelectorAll('[data-lang]').forEach(function (b) {
       b.addEventListener('click', function () {
-        Store.setScript(b.dataset.script);
+        Store.setLang(b.dataset.lang);
         applyPrefs();
         // Re-render whatever is on screen so the switch takes effect in place,
         // without losing the current answer.

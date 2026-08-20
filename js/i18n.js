@@ -91,5 +91,51 @@ window.I18N = {
 
     emptyWrongBook: '错题本是空的。先做几题练习吧。',
     noQuestions: '没有可用的题目。'
+  },
+
+  en: {
+    appTitle: 'California DMV Practice Test',
+    home: 'Home', quiz: 'Question', results: 'Results',
+
+    statAnswered: 'Answered', statAccuracy: 'Correct', statWrong: 'To review',
+
+    modeExam46: 'Mock exam',
+    modeExam46Desc: '46 questions, 38 correct to pass. Same format as the real test.',
+    modeExam18: 'Renewal exam',
+    modeExam18Desc: '18 questions, 15 correct to pass. For licence renewal.',
+    modePractice: 'Practice',
+    modePracticeDesc: 'Every question explained as you go, with the reason wrong answers are wrong.',
+    modeWrong: 'Review missed',
+    modeWrongDesc: 'Only questions you got wrong. They drop off after two correct answers in a row.',
+    modeOfficial: 'Official samples',
+    modeOfficialDesc: 'The four sample tests published by DMV, word for word.',
+    officialTest: 'Test',
+
+    resetProgress: 'Clear study history',
+    resetConfirm: 'Clear all study history? This cannot be undone.',
+    disclaimer: 'Unofficial study aid. Answers and explanations are drawn from the California Driver’s Handbook and cite a page number so you can check them. DMV’s published rules are the authority.',
+
+    counter: (i, n) => `Question ${i} of ${n}`,
+    scoreSoFar: (c, t) => `${c} of ${t} correct`,
+    sourceOfficial: (n) => `DMV official sample test ${n}`,
+    sourceHandbook: 'From the California Driver’s Handbook',
+
+    yourAnswer: 'Your answer is not correct',
+    correctAnswer: 'Correct answer',
+    refLine: (p, s) => `California Driver’s Handbook, p. ${p} · ${s}`,
+
+    next: 'Next question', finish: 'Finish', seeResults: 'See results',
+    quitConfirm: 'Leave this session? Your progress in it will not be saved.',
+
+    pass: 'Pass', fail: 'Not a pass',
+    scoreLine: (c, t) => `${c} / ${t}`,
+    passNote: (need, t) => `Passing score: ${need} of ${t} correct`,
+    reviewTitle: 'Questions to review',
+    reviewAllRight: 'All correct — nothing to review.',
+    retryWrong: 'Retry these questions',
+    backHome: 'Back to home',
+
+    emptyWrongBook: 'Nothing to review yet. Answer some practice questions first.',
+    noQuestions: 'No questions available.'
   }
 };
