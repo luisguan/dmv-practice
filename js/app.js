@@ -31,6 +31,14 @@
 
   function lang() { return Store.getLang(); }
 
+  /* Read a per-language field, falling back to Traditional Chinese. If an asset
+     ever loads half-updated, a question shows in the wrong language rather than
+     blank or throwing. */
+  function pick(obj) {
+    if (!obj) return '';
+    return obj[lang()] || obj.hant || '';
+  }
+
   function shuffled(arr) {
     var a = arr.slice();
     for (var i = a.length - 1; i > 0; i--) {
@@ -149,7 +157,7 @@
   function renderQuestion() {
     var item = S.items[S.index];
     var q = item.q;
-    var text = q[lang()];
+    var text = pick(q);
     var chosen = S.answers[S.index];
     var graded = S.cfg.immediate && chosen !== null;
 
@@ -207,12 +215,12 @@
     var html = '';
     if (why) {
       html += '<div class="fb__row fb__row--bad"><span class="fb__label">' +
-              t('yourAnswer') + '</span>' + esc(why[lang()]) + '</div>';
+              t('yourAnswer') + '</span>' + esc(pick(why)) + '</div>';
     }
     html += '<div class="fb__row fb__row--good"><span class="fb__label">' +
-            t('correctAnswer') + '</span>' + esc(q[lang()].choices[q.answer]) +
-            ' — ' + esc(q.rationale[lang()]) + '</div>';
-    html += '<div class="fb__ref">' + esc(t('refLine', q.ref.page, q.ref.section[lang()])) + '</div>';
+            t('correctAnswer') + '</span>' + esc(pick(q).choices[q.answer]) +
+            ' — ' + esc(pick(q.rationale)) + '</div>';
+    html += '<div class="fb__ref">' + esc(t('refLine', q.ref.page, pick(q.ref.section))) + '</div>';
 
     fb.innerHTML = html;
     fb.hidden = false;
@@ -279,16 +287,16 @@
   }
 
   function reviewItem(q, chosen) {
-    var text = q[lang()];
+    var text = pick(q);
     var why = chosen === null ? null : q.whyWrong[chosen];
     return '<div class="review__item">' +
       '<p class="review__q">' + esc(text.q) + '</p>' +
       (chosen === null ? '' :
         '<p class="review__line review__line--bad">✗ ' + esc(text.choices[chosen]) + '</p>' +
-        (why ? '<p class="review__line">' + esc(why[lang()]) + '</p>' : '')) +
+        (why ? '<p class="review__line">' + esc(pick(why)) + '</p>' : '')) +
       '<p class="review__line review__line--good">✓ ' + esc(text.choices[q.answer]) + '</p>' +
-      '<p class="review__line">' + esc(q.rationale[lang()]) + '</p>' +
-      '<p class="review__ref">' + esc(t('refLine', q.ref.page, q.ref.section[lang()])) + '</p>' +
+      '<p class="review__line">' + esc(pick(q.rationale)) + '</p>' +
+      '<p class="review__ref">' + esc(t('refLine', q.ref.page, pick(q.ref.section))) + '</p>' +
       '</div>';
   }
 

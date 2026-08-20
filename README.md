@@ -37,6 +37,23 @@ host (Netlify, Cloudflare Pages, Vercel) would work the same way.
 All asset paths are relative, so the site works from the `/dmv-practice/`
 subpath. Do not change them to absolute `/…` paths — that would break it.
 
+### Bump `?v=` when you change js/, css/ or data/
+
+Every asset in `index.html` is referenced with a `?v=N` query string. **Increment
+it on every deploy that touches those folders.**
+
+GitHub Pages serves `Cache-Control: max-age=600`, so a returning visitor can
+receive the new `index.html` while still holding stale `.js` files from cache.
+That mix genuinely breaks the app — it is how `EN is not defined` happened on the
+first English deploy: new HTML loaded the new `data/en-*.js`, but `data/bank.js`
+came from cache without the `EN()` function, and English silently rendered empty.
+
+Versioned URLs prevent it. Each cached `index.html` points at one complete
+generation of assets, so an old visitor gets a consistent old app, and the entire
+set flips together when the HTML refreshes. As a second line of defence, the app
+falls back to Traditional Chinese for any language field that is missing, so a
+half-updated load degrades to the wrong language rather than a blank screen.
+
 ## Modes
 
 | Mode | What it does |
