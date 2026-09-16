@@ -145,6 +145,27 @@ body {
   font-size: .7rem; line-height: 1.6; text-align: center;
 }
 
+/* ── question-source picker ────────────────────────────────────────────── */
+
+.sources {
+  margin: 20px 0 0; padding: 14px 16px;
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.sources__legend { padding: 0 6px; font-size: .78rem; font-weight: 700; color: var(--ink-soft); }
+.source {
+  display: flex; align-items: flex-start; gap: 12px;
+  min-height: 46px; padding: 7px 0; cursor: pointer;
+}
+.source input {
+  flex: none; width: 1.35em; height: 1.35em; margin: .12em 0 0;
+  accent-color: var(--brand); cursor: pointer;
+}
+.source__text { display: flex; flex-direction: column; }
+.source__name  { font-size: .9rem; line-height: 1.45; }
+.source__count { font-size: .72rem; color: var(--ink-soft); }
+.sources__note { margin: 8px 0 0; font-size: .7rem; line-height: 1.55; color: var(--ink-soft); }
+
 /* ── quiz ──────────────────────────────────────────────────────────────── */
 
 .quizbar { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
@@ -165,6 +186,11 @@ body {
   border-radius: var(--radius); padding: 18px;
 }
 .qcard__source { margin: 0 0 8px; font-size: .68rem; color: var(--ink-soft); }
+.qcard__sign { margin: 0 0 14px; }
+.qcard__sign svg, .review__sign svg { width: 7.5rem; height: 7.5rem; display: block; }
+.review__sign { margin-bottom: 10px; }
+.review__sign svg { width: 5rem; height: 5rem; }
+
 .qcard__text { margin: 0 0 18px; font-size: 1.1rem; font-weight: 600; line-height: 1.65; }
 
 .choices { display: flex; flex-direction: column; gap: 12px; }

@@ -20,7 +20,7 @@ window.validateBank = function () {
     if (seenIds[q.id]) err(id, 'duplicate id');
     seenIds[q.id] = true;
 
-    if (q.source !== 'official' && q.source !== 'handbook') err(id, 'bad source: ' + q.source);
+    if (['official', 'handbook', 'provided'].indexOf(q.source) < 0) err(id, 'bad source: ' + q.source);
     if (q.source === 'official' && (!q.test || !q.num)) err(id, 'official question missing test/num');
 
     ['hant', 'hans', 'en'].forEach(function (s) {
@@ -59,6 +59,10 @@ window.validateBank = function () {
       q.whyWrong.forEach(function (w, wi) {
         if (wi === q.answer) {
           if (w !== null) err(id, 'whyWrong[' + wi + '] should be null (it is the answer)');
+        } else if (q.source === 'provided') {
+          // The provided bank carries a rationale and a citation but no
+          // per-distractor explanation; renderFeedback() handles a null.
+          if (w !== null && (!w.hant || !w.hans || !w.en)) err(id, 'whyWrong[' + wi + '] partly filled');
         } else if (!w || !w.hant || !w.hans || !w.en) {
           err(id, 'whyWrong[' + wi + '] missing a language');
         }
@@ -69,6 +73,10 @@ window.validateBank = function () {
     else if (q.ref.page < 1 || q.ref.page > 92) err(id, 'ref.page ' + q.ref.page + ' outside 1-92');
     if (!q.ref || !q.ref.section || !q.ref.section.hant || !q.ref.section.hans || !q.ref.section.en) {
       err(id, 'ref.section missing a language');
+    }
+
+    if (q.sign && !(window.SIGNS && window.SIGNS[q.sign])) {
+      err(id, 'sign "' + q.sign + '" is not defined in window.SIGNS');
     }
 
     if (q.dupeOf && !bank.some(function (o) { return o.id === q.dupeOf; })) {
@@ -104,6 +112,8 @@ window.validateBank = function () {
     pool: pool.length,
     official: bank.filter(function (q) { return q.source === 'official'; }).length,
     handbook: bank.filter(function (q) { return q.source === 'handbook'; }).length,
+    provided: bank.filter(function (q) { return q.source === 'provided'; }).length,
+    signs: bank.filter(function (q) { return !!q.sign; }).length,
     errors: errors,
     warnings: warnings
   };

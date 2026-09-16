@@ -91,6 +91,14 @@
     document.querySelectorAll('.official-btn').forEach(function (b) {
       b.textContent = t('officialTest') + ' ' + b.dataset.official;
     });
+
+    document.querySelectorAll('[data-source]').forEach(function (cb) {
+      var key = cb.dataset.source;
+      cb.checked = Store.isSourceOn(key);
+      var n = BANK.filter(function (q) { return q.source === key && !q.dupeOf; }).length;
+      var el = $('count-' + key);
+      if (el) el.textContent = t('sourceCount', n);
+    });
     show('home');
   }
 
@@ -109,7 +117,11 @@
     }
     // Two sample-test questions repeat earlier ones verbatim. They stay inside
     // their own sample test but must not appear twice in a shuffled run.
-    var unique = BANK.filter(function (q) { return !q.dupeOf; });
+    // Official-samples mode deliberately ignores the source filter -- picking
+    // "sample test 3" should always give you sample test 3.
+    var unique = BANK.filter(function (q) {
+      return !q.dupeOf && Store.isSourceOn(q.source);
+    });
 
     if (mode === 'wrong') {
       var ids = Store.wrongBookIds();
@@ -123,7 +135,7 @@
   function start(mode, officialTest) {
     var questions = pickQuestions(mode, officialTest);
     if (!questions.length) {
-      alert(mode === 'wrong' ? t('emptyWrongBook') : t('noQuestions'));
+      alert(mode === 'wrong' ? t('emptyWrongBook') : t('noSourcesSelected'));
       return;
     }
 
@@ -165,9 +177,17 @@
     $('q-score').textContent = S.cfg.immediate ? t('scoreSoFar', countCorrect(), answeredCount()) : '';
     $('progress-fill').style.width = ((S.index) / S.items.length * 100) + '%';
 
-    $('q-source').textContent = q.source === 'official'
-      ? t('sourceOfficial', q.test)
+    $('q-source').textContent =
+        q.source === 'official' ? t('sourceOfficial', q.test)
+      : q.source === 'provided' ? t('sourceProvided')
       : t('sourceHandbook');
+    document.querySelector('.qcard').dataset.qid = q.id;
+
+    var signBox = $('q-sign');
+    var art = q.sign && window.SIGNS ? window.SIGNS[q.sign] : null;
+    signBox.innerHTML = art || '';
+    signBox.hidden = !art;
+
     $('q-text').textContent = text.q;
 
     var box = $('choices');
@@ -213,10 +233,12 @@
     var q = item.q;
     var why = q.whyWrong[chosen];
     var html = '';
-    if (why) {
-      html += '<div class="fb__row fb__row--bad"><span class="fb__label">' +
-              t('yourAnswer') + '</span>' + esc(pick(why)) + '</div>';
-    }
+    // Questions without a per-distractor explanation still get the "not
+    // correct" row, echoing the choice that was picked -- otherwise the card
+    // opens straight into the right answer and reads as a non sequitur.
+    html += '<div class="fb__row fb__row--bad"><span class="fb__label">' +
+            t('yourAnswer') + '</span>' +
+            (why ? esc(pick(why)) : esc(pick(q).choices[chosen])) + '</div>';
     html += '<div class="fb__row fb__row--good"><span class="fb__label">' +
             t('correctAnswer') + '</span>' + esc(pick(q).choices[q.answer]) +
             ' — ' + esc(pick(q.rationale)) + '</div>';
@@ -289,7 +311,9 @@
   function reviewItem(q, chosen) {
     var text = pick(q);
     var why = chosen === null ? null : q.whyWrong[chosen];
+    var art = q.sign && window.SIGNS ? window.SIGNS[q.sign] : null;
     return '<div class="review__item">' +
+      (art ? '<div class="review__sign">' + art + '</div>' : '') +
       '<p class="review__q">' + esc(text.q) + '</p>' +
       (chosen === null ? '' :
         '<p class="review__line review__line--bad">✗ ' + esc(text.choices[chosen]) + '</p>' +
@@ -358,6 +382,13 @@
       S.cfg = { immediate: true, pass: null };
       show('quiz');
       renderQuestion();
+    });
+
+    document.querySelectorAll('[data-source]').forEach(function (cb) {
+      cb.addEventListener('change', function () {
+        Store.setSource(cb.dataset.source, cb.checked);
+        renderHome();   // re-render so a forced-on fallback shows up immediately
+      });
     });
 
     $('reset-btn').addEventListener('click', function () {

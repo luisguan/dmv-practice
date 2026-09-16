@@ -1,0 +1,2215 @@
+[
+ {
+  "q": "You may drive off of the paved roadway to pass another vehicle:",
+  "choices": [
+   "A)If the shoulder is wide enough to accommodate your vehicle.",
+   "B)If the vehicle ahead of you is turning left.",
+   "C)Under no circumstances."
+  ],
+  "answer": "C)Under no circumstances."
+ },
+ {
+  "q": "You are approaching a railroad crossing with no warning devices and are unable to see 400 feet down the tracks in one direction. The speed limit is:",
+  "choices": [
+   "A)15 mph.",
+   "B)20 mph.",
+   "C)25 mph."
+  ],
+  "answer": "A)15 mph."
+ },
+ {
+  "q": "When parking your vehicle parallel to the curb on a level street:",
+  "choices": [
+   "A)Your front wheels must be turned toward the street.",
+   "B)Your wheels must be within 18 inches of the curb.",
+   "C)One of your rear wheels must touch the curb."
+  ],
+  "answer": "B)Your wheels must be within 18 inches of the curb."
+ },
+ {
+  "q": "When you are merging onto the freeway, you should be driving:",
+  "choices": [
+   "A)At or near the same speed as the traffic on the freeway.",
+   "B)5 to 10 MPH slower than the traffic on the freeway.",
+   "C)The posted speed limit for traffic on the freeway."
+  ],
+  "answer": "A)At or near the same speed as the traffic on the freeway."
+ },
+ {
+  "q": "When driving in fog, you should use your:",
+  "choices": [
+   "A)Fog lights only.",
+   "B)High beams.",
+   "C)Low beams."
+  ],
+  "answer": "C)Low beams."
+ },
+ {
+  "q": "A white painted curb means:",
+  "choices": [
+   "A)Loading zone for freight or passengers.",
+   "B)Loading zone for passengers or mail only.",
+   "C)Loading zone for freight only."
+  ],
+  "answer": "B)Loading zone for passengers or mail only."
+ },
+ {
+  "q": "A school bus ahead of you in your lane is stopped with red lights flashing. You should:",
+  "choices": [
+   "A)Stop, then proceed when you think all of the children have exited the bus.",
+   "B)Slow to 25 MPH and pass cautiously.",
+   "C)Stop as long as the red lights are flashing."
+  ],
+  "answer": "C)Stop as long as the red lights are flashing."
+ },
+ {
+  "q": "California's \"Basic Speed Law\" says:",
+  "choices": [
+   "A)You should never drive faster than posted speed limits.",
+   "B)You should never drive faster than is safe for current conditions.",
+   "C)The maximum speed limit in California is 70 mph on certain freeways."
+  ],
+  "answer": "B)You should never drive faster than is safe for current conditions."
+ },
+ {
+  "q": "You just sold your vehicle. You must notify the DMV within ___ days.",
+  "choices": [
+   "A)5",
+   "B)10",
+   "C)15"
+  ],
+  "answer": "A)5"
+ },
+ {
+  "q": "To avoid last minute moves, you should be looking down the road to where your vehicle will be in about ______________.",
+  "choices": [
+   "A)5 to 10 seconds",
+   "B)10 to 15 seconds",
+   "C)15 to 20 seconds"
+  ],
+  "answer": "B)10 to 15 seconds"
+ },
+ {
+  "q": "You are about to make a left turn. You must signal continuously during the last ____ feet before the turn.",
+  "choices": [
+   "A)50",
+   "B)75",
+   "C)100"
+  ],
+  "answer": "C)100"
+ },
+ {
+  "q": "Which of the following statements about blind spots is true?",
+  "choices": [
+   "A)They are eliminated if you have one outside mirror on each side of the vehicle.",
+   "B)Large trucks have bigger blind spots than most passenger vehicles.",
+   "C)Blind spots can be checked by looking in your rear view mirrors."
+  ],
+  "answer": "B)Large trucks have bigger blind spots than most passenger vehicles."
+ },
+ {
+  "q": "You have been involved in a minor traffic collision with a parked vehicle and you can't find the owner. You must:",
+  "choices": [
+   "A)Leave a note on the vehicle.",
+   "B)Report the accident without delay to the city police or, in unincorporated areas, to the CHP.",
+   "C)Both of the above."
+  ],
+  "answer": "C)Both of the above."
+ },
+ {
+  "q": "Unless otherwise posted the speed limit in a residential area is ____.",
+  "choices": [
+   "A)20 mph",
+   "B)25 mph",
+   "C)30 mph"
+  ],
+  "answer": "B)25 mph"
+ },
+ {
+  "q": "You may legally block an intersection:",
+  "choices": [
+   "A)When you entered the intersection on the green light.",
+   "B)During rush hour traffic.",
+   "C)Under no circumstances."
+  ],
+  "answer": "C)Under no circumstances."
+ },
+ {
+  "q": "When parking uphill on a two-way street with no curb, your front wheels should be:",
+  "choices": [
+   "A)Turned to the left (toward the street).",
+   "B)Turned to the right (away from the street).",
+   "C)Parallel with the pavement."
+  ],
+  "answer": "B)Turned to the right (away from the street)."
+ },
+ {
+  "q": "With a Class C drivers license a person may drive:",
+  "choices": [
+   "A)A 3-axle vehicle if the Gross Vehicle Weight is less than 6,000 pounds.",
+   "B)Any 3-axle vehicle regardless of the weight.",
+   "C)A vehicle pulling two trailers."
+  ],
+  "answer": "A)A 3-axle vehicle if the Gross Vehicle Weight is less than 6,000 pounds."
+ },
+ {
+  "q": "To turn left from a multilane one-way street onto a one-way street, you should start your turn from:",
+  "choices": [
+   "A)Any lane (as long as it is safe).",
+   "B)The lane closest to the left curb.",
+   "C)The lane in the center of the road."
+  ],
+  "answer": "B)The lane closest to the left curb."
+ },
+ {
+  "q": "If you are involved in a traffic collision, you are required to complete and submit a written report (SR1) to the DMV:",
+  "choices": [
+   "A)if you or the other driver is injured.",
+   "B)If there is property damage in excess of $1,000 or if there are any injuries.",
+   "C)Only if you are at fault."
+  ],
+  "answer": "B)If there is property damage in excess of $1,000 or if there are any injuries."
+ },
+ {
+  "q": "Roadways are the most slippery:",
+  "choices": [
+   "A)During a heavy downpour.",
+   "B)After it has been raining for awhile.",
+   "C)The first rain after a dry spell."
+  ],
+  "answer": "C)The first rain after a dry spell."
+ },
+ {
+  "q": "You may not park your vehicle:",
+  "choices": [
+   "A)On the side of the freeway in an emergency.",
+   "B)Next to a red painted curb.",
+   "C)Within 100 feet of an elementary school."
+  ],
+  "answer": "B)Next to a red painted curb."
+ },
+ {
+  "q": "You must notify the DMV within 5 days if you:",
+  "choices": [
+   "A)Sell or transfer your vehicle.",
+   "B)Fail a smog test for your vehicle.",
+   "C)Get a new prescription for lenses or contacts."
+  ],
+  "answer": "A)Sell or transfer your vehicle."
+ },
+ {
+  "q": "Two sets of solid, double, yellow lines that are two or more feet apart:",
+  "choices": [
+   "A)May be crossed to enter or exit a private driveway.",
+   "B)May not be crossed for any reason.",
+   "C)Should be treated as a separate traffic lane."
+  ],
+  "answer": "B)May not be crossed for any reason."
+ },
+ {
+  "q": "You want to make a right turn at an upcoming intersection. You should slow down and:",
+  "choices": [
+   "A)Move toward the left side of your lane.",
+   "B)Avoid driving in the bicycle lane.",
+   "C)Signal for 100 feet before turning."
+  ],
+  "answer": "C)Signal for 100 feet before turning."
+ },
+ {
+  "q": "You are driving on a freeway posted for 65 MPH. The traffic is traveling at 70 MPH. You may legally drive:",
+  "choices": [
+   "A)70 mph or faster to keep up with the speed of traffic.",
+   "B)Between 65 mph and 70 mph.",
+   "C)No faster than 65 mph."
+  ],
+  "answer": "C)No faster than 65 mph."
+ },
+ {
+  "q": "It is illegal to park your vehicle:",
+  "choices": [
+   "A)In an unmarked crosswalk.",
+   "B)Within three feet of a private driveway.",
+   "C)In a bicycle lane."
+  ],
+  "answer": "A)In an unmarked crosswalk."
+ },
+ {
+  "q": "The safest precaution that you can take regarding the use of cellular phones and driving is:",
+  "choices": [
+   "A)Use hands-free devices so you can keep both hands on the steering wheel.",
+   "B)Keep your phone within easy reach so you won't need to take your eyes off the road.",
+   "C)Review the number before answering a call."
+  ],
+  "answer": "A)Use hands-free devices so you can keep both hands on the steering wheel."
+ },
+ {
+  "q": "If you have a green light, but traffic is blocking the intersection, you should:",
+  "choices": [
+   "A)Stay out of the intersection until traffic clears.",
+   "B)Enter the intersection and wait until traffic clears.",
+   "C)Merge into another lane and try to go around the traffic."
+  ],
+  "answer": "A)Stay out of the intersection until traffic clears."
+ },
+ {
+  "q": "You are getting ready to make a right turn. You should:",
+  "choices": [
+   "A)Signal and turn immediately.",
+   "B)Stop before entering the right lane and let all other traffic go first.",
+   "C)Slow down or stop, if necessary, and then make the turn."
+  ],
+  "answer": "C)Slow down or stop, if necessary, and then make the turn."
+ },
+ {
+  "q": "It is a very windy day. You are driving and a dust storm blows across the freeway reducing your visibility. You should drive slower and turn on your:",
+  "choices": [
+   "A)Interior lights.",
+   "B)Parking lights.",
+   "C)Headlights."
+  ],
+  "answer": "C)Headlights."
+ },
+ {
+  "q": "If you plan to pass another vehicle, you should:",
+  "choices": [
+   "A)Not assume the other driver will make space for you to return to your lane.",
+   "B)Assume the other driver will let you pass if you use your turn signal.",
+   "C)Assume the other driver will maintain a constant speed."
+  ],
+  "answer": "A)Not assume the other driver will make space for you to return to your lane."
+ },
+ {
+  "q": "You are driving on a freeway posted for 65 mph. Most of the other vehicles are driving 70 mph or faster. You may legally drive:",
+  "choices": [
+   "A)70 mph or faster to keep up with the speed of traffic.",
+   "B)Between 65 mph and 70 mph.",
+   "C)No faster than 65 mph."
+  ],
+  "answer": "C)No faster than 65 mph."
+ },
+ {
+  "q": "If you drive faster than other vehicles on a road with one lane in each direction and continually pass the other cars, you will:",
+  "choices": [
+   "A)Get you to your destination much faster and safer.",
+   "B)Increase your chances of an accident.",
+   "C)Help prevent traffic congestion."
+  ],
+  "answer": "B)Increase your chances of an accident."
+ },
+ {
+  "q": "Which of these vehicles must always stop before crossing railroad tracks?",
+  "choices": [
+   "A)Tank trucks marked with hazardous materials placards.",
+   "B)Motor homes or pickup trucks towing a boat trailer.",
+   "C)Any vehicle with 3 or more axles or weighing more than 4,000 pounds."
+  ],
+  "answer": "A)Tank trucks marked with hazardous materials placards."
+ },
+ {
+  "q": "You are driving on a one-way street. You may turn left onto another one-way street only if:",
+  "choices": [
+   "A)A sign permits the turn.",
+   "B)Traffic on the street moves to the right.",
+   "C)Traffic on the street moves to the left."
+  ],
+  "answer": "C)Traffic on the street moves to the left."
+ },
+ {
+  "q": "A large truck is ahead of you and is turning right onto a street with two lanes in each direction. The truck:",
+  "choices": [
+   "A)May complete its turn in either of the two lanes.",
+   "B)May have to swing wide to complete the right turn.",
+   "C)Must stay in the right lane at all times while turning."
+  ],
+  "answer": "B)May have to swing wide to complete the right turn."
+ },
+ {
+  "q": "You may cross a double yellow line to pass another vehicle, if the yellow line next to:",
+  "choices": [
+   "A)The other side of the road is a solid line.",
+   "B)Your side of the road is a broken line.",
+   "C)The other side of the road is a broken line."
+  ],
+  "answer": "B)Your side of the road is a broken line."
+ },
+ {
+  "q": "At intersections, crosswalks, and railroad crossings, you should always:",
+  "choices": [
+   "A)Stop, listen, and proceed cautiously.",
+   "B)Look to the sides of your vehicle to see what is coming.",
+   "C)Slowly pass vehicles that seem to be stopped for no reason."
+  ],
+  "answer": "B)Look to the sides of your vehicle to see what is coming."
+ },
+ {
+  "q": "You drive defensively when you:",
+  "choices": [
+   "A)Always put one car length between you and the car ahead.",
+   "B)Look only at the car in front of you while driving.",
+   "C)Keep your eyes moving to look for possible hazards."
+  ],
+  "answer": "C)Keep your eyes moving to look for possible hazards."
+ },
+ {
+  "q": "You are driving on the freeway. The vehicle in front of you is a large truck. You should drive:",
+  "choices": [
+   "A)Closely behind the truck in bad weather because the driver can see farther ahead.",
+   "B)Farther behind the truck than you would for a passenger vehicle.",
+   "C)No more than one car length behind the truck so the driver can see you."
+  ],
+  "answer": "B)Farther behind the truck than you would for a passenger vehicle."
+ },
+ {
+  "q": "All of the following practices are dangerous to do while driving. Which of these is also illegal?",
+  "choices": [
+   "A)Listening to music through headphones that cover both ears.",
+   "B)Adjusting your outside mirrors.",
+   "C)Transporting an unrestrained animal inside the vehicle."
+  ],
+  "answer": "A)Listening to music through headphones that cover both ears."
+ },
+ {
+  "q": "Always stop before you cross railroad tracks when:",
+  "choices": [
+   "A)You don't have room on the other side to completely cross the tracks.",
+   "B)The railroad crossing is located in a city or town that has frequent train traffic.",
+   "C)You transport two or more young children in a passenger vehicle."
+  ],
+  "answer": "A)You don't have room on the other side to completely cross the tracks."
+ },
+ {
+  "q": "When you tailgate other drivers (drive close to their rear bumper):",
+  "choices": [
+   "A)You can frustrate the other drivers and make them angry.",
+   "B)Your actions cannot result in a traffic citation.",
+   "C)You help reduce traffic congestion."
+  ],
+  "answer": "A)You can frustrate the other drivers and make them angry."
+ },
+ {
+  "q": "Should you always drive slower than other traffic?",
+  "choices": [
+   "A)No, you can block traffic when you drive too slowly.",
+   "B)Yes, it is a good defensive driving technique.",
+   "C)Yes, it is always safer than driving faster than other traffic."
+  ],
+  "answer": "A)No, you can block traffic when you drive too slowly."
+ },
+ {
+  "q": "You see a signal person at a road construction site ahead. You should obey his or her instructions:",
+  "choices": [
+   "A)Only if you see orange cones on the road ahead.",
+   "B)Unless they conflict with existing signs, signals, or laws.",
+   "C)At all times."
+  ],
+  "answer": "C)At all times."
+ },
+ {
+  "q": "When can you drive in a bike lane?",
+  "choices": [
+   "A)During rush hour traffic if there are no bicyclists in the bike lane.",
+   "B)When you are within 200 feet of a cross street where you plan to turn right.",
+   "C)When you want to pass a driver ahead of you who is turning right."
+  ],
+  "answer": "B)When you are within 200 feet of a cross street where you plan to turn right."
+ },
+ {
+  "q": "You see a flashing yellow traffic signal at an upcoming intersection. The flashing yellow light means:",
+  "choices": [
+   "A)Stop before entering the intersection as long as you can do so safely.",
+   "B)Stop. Yield to all cross traffic before crossing the intersection.",
+   "C)Slow down and cross the intersection carefully."
+  ],
+  "answer": "C)Slow down and cross the intersection carefully."
+ },
+ {
+  "q": "There is no crosswalk and you see a pedestrian crossing your lane ahead. You should:",
+  "choices": [
+   "A)Make eye contact and then pass him/her.",
+   "B)Slow down as you pass him/her.",
+   "C)Stop and let him/her finish crossing the street."
+  ],
+  "answer": "C)Stop and let him/her finish crossing the street."
+ },
+ {
+  "q": "A solid yellow line next to a broken yellow line means that vehicles:",
+  "choices": [
+   "A)In both directions may pass.",
+   "B)Next to the broken line may pass.",
+   "C)Next to the solid line may pass."
+  ],
+  "answer": "B)Next to the broken line may pass."
+ },
+ {
+  "q": "In which of the following scenarios should your wheels not be pointed straight ahead?",
+  "choices": [
+   "A)When waiting to make a left turn at a traffic light.",
+   "B)When parked on a hill or sloping driveway.",
+   "C)When parked on the side of a level roadway where there is no curb."
+  ],
+  "answer": "B)When parked on a hill or sloping driveway."
+ },
+ {
+  "q": "When driving in fog, rain, or snow, use:",
+  "choices": [
+   "A)Low beams.",
+   "B)High beams.",
+   "C)Fog lights only."
+  ],
+  "answer": "A)Low beams."
+ },
+ {
+  "q": "When you see this sign, you:",
+  "choices": [
+   "A)Are approaching a railroad crossing and should prepare to stop.",
+   "B)Will always stop at the upcoming railroad crossing.",
+   "C)Should stop and wait for a signal before crossing the railroad tracks."
+  ],
+  "answer": "A)Are approaching a railroad crossing and should prepare to stop."
+ },
+ {
+  "q": "If a truck or bus is making a right turn where you also need to make a right turn, you should:",
+  "choices": [
+   "A)Quickly turn before the truck or bus is able to.",
+   "B)Wait until the truck or bus turns before you turn.",
+   "C)Squeeze between the truck or bus and the curb."
+  ],
+  "answer": "B)Wait until the truck or bus turns before you turn."
+ },
+ {
+  "q": "You should increase the distance between your vehicle and the vehicle ahead when you:",
+  "choices": [
+   "A)Are following a small passenger vehicle.",
+   "B)Are being tailgated by another driver.",
+   "C)Are driving more slowly than the posted speed limit."
+  ],
+  "answer": "B)Are being tailgated by another driver."
+ },
+ {
+  "q": "When driving under snowy or icy conditions:",
+  "choices": [
+   "A)It is safe to use your cruise control.",
+   "B)Make speed and directional changes more gradually than you would otherwise.",
+   "C)Drive as you would under normal conditions."
+  ],
+  "answer": "B)Make speed and directional changes more gradually than you would otherwise."
+ },
+ {
+  "q": "A broken yellow centerline means that:",
+  "choices": [
+   "A)Passing is not permitted.",
+   "B)Passing on the right is permitted when the way ahead is clear.",
+   "C)Passing on the left is permitted when the way ahead is clear."
+  ],
+  "answer": "C)Passing on the left is permitted when the way ahead is clear."
+ },
+ {
+  "q": "Which of these statements is true about changing lanes?",
+  "choices": [
+   "A)You only need to turn and look over your right shoulder for lane changes to the right or left.",
+   "B)Look over your right shoulder for a right lane change and your left shoulder for a left lane change.",
+   "C)Vehicles with two outside mirrors do not have blind spots."
+  ],
+  "answer": "B)Look over your right shoulder for a right lane change and your left shoulder for a left lane change."
+ },
+ {
+  "q": "When being followed by a tailgater, which of the following will help you avoid being hit from behind?",
+  "choices": [
+   "A)Merging into another lane",
+   "B)Decreasing your following distance",
+   "C)Changing lanes frequently"
+  ],
+  "answer": "A)Merging into another lane"
+ },
+ {
+  "q": "If you approach a traffic light with a red signal and a police officer directs you to go through the intersection without stopping, you should:",
+  "choices": [
+   "A)Stop until the light turns green.",
+   "B)Go through the intersection without stopping.",
+   "C)Come to a complete stop before proceeding."
+  ],
+  "answer": "B)Go through the intersection without stopping."
+ },
+ {
+  "q": "Which of the following factors affect an individual's absorption of alcohol?",
+  "choices": [
+   "A)Weight",
+   "B)Height",
+   "C)Intelligence"
+  ],
+  "answer": "A)Weight"
+ },
+ {
+  "q": "This white sign means:",
+  "choices": [
+   "A)You should slow down and move to the right lane.",
+   "B)Stay in the right lane if you are driving more slowly than other traffic.",
+   "C)Slower traffic must exit on the right."
+  ],
+  "answer": "B)Stay in the right lane if you are driving more slowly than other traffic."
+ },
+ {
+  "q": "An orange and red triangular sign on a vehicle always means:",
+  "choices": [
+   "A)The vehicle has the right-of-way.",
+   "B)Slow-moving vehicle.",
+   "C)Shoulder work ahead."
+  ],
+  "answer": "B)Slow-moving vehicle."
+ },
+ {
+  "q": "Fatigue increases the risk of:",
+  "choices": [
+   "A)Missing an exit.",
+   "B)Being late for an appointment.",
+   "C)Falling asleep behind the wheel and crashing."
+  ],
+  "answer": "C)Falling asleep behind the wheel and crashing."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Cars on the right move first.",
+   "B)You have the right-of-way.",
+   "C)Let cross traffic pass before proceeding."
+  ],
+  "answer": "C)Let cross traffic pass before proceeding."
+ },
+ {
+  "q": "Which of the following blocks the smooth flow of traffic?",
+  "choices": [
+   "A)Slowing down to look at collision scene.",
+   "B)Avoiding unnecessary lane changes.",
+   "C)Using public transportation instead of your vehicle."
+  ],
+  "answer": "A)Slowing down to look at collision scene."
+ },
+ {
+  "q": "When driving in work zones, you should:",
+  "choices": [
+   "A)Increase your speed to get through the zone as quickly as possible.",
+   "B)Reduce your speed and be prepared to stop suddenly.",
+   "C)Maintain your normal speed the whole way through the zone."
+  ],
+  "answer": "B)Reduce your speed and be prepared to stop suddenly."
+ },
+ {
+  "q": "When backing up:",
+  "choices": [
+   "A)Look through the rear window.",
+   "B)Press hard on the gas pedal.",
+   "C)Rely only on your rearview mirror."
+  ],
+  "answer": "A)Look through the rear window."
+ },
+ {
+  "q": "You are approaching an intersection at the posted speed limit when the signal turns yellow. You should:",
+  "choices": [
+   "A)Slow down and proceed through the intersection without caution.",
+   "B)Speed up to cross the intersection before the light turns red.",
+   "C)Stop before entering the intersection, if you can do so safely."
+  ],
+  "answer": "C)Stop before entering the intersection, if you can do so safely."
+ },
+ {
+  "q": "A person may legally ride in the back of a pickup truck when:",
+  "choices": [
+   "A)The sides of the pickup bed are at least 24 inches high.",
+   "B)The back of the pickup is covered with a camper shell.",
+   "C)In a secured seat and while using an approved safety belt."
+  ],
+  "answer": "C)In a secured seat and while using an approved safety belt."
+ },
+ {
+  "q": "Which of these statements is true about drugs and driving?",
+  "choices": [
+   "A)Any prescription drug is safe to use if you don't feel drowsy.",
+   "B)Even over-the-counter drugs can impair your driving.",
+   "C)Only illegal drugs can impair your driving."
+  ],
+  "answer": "B)Even over-the-counter drugs can impair your driving."
+ },
+ {
+  "q": "When you are behind a motorcycle, you should:",
+  "choices": [
+   "A)Be ready to use your horn.",
+   "B)Drive more slowly.",
+   "C)Allow a larger following distance."
+  ],
+  "answer": "C)Allow a larger following distance."
+ },
+ {
+  "q": "When driving at night on a dimly lit street, you should:",
+  "choices": [
+   "A)Drive slowly enough that you can stop within the area illuminated by your headlights.",
+   "B)Turn on your high beam headlights to better see the vehicles ahead of you.",
+   "C)Keep the instrument panel lights bright to be more visible to other drivers."
+  ],
+  "answer": "A)Drive slowly enough that you can stop within the area illuminated by your headlights."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Pedestrians walking along the road ahead.",
+   "B)Pedestrian crossing ahead.",
+   "C)Pedestrians must not cross here."
+  ],
+  "answer": "B)Pedestrian crossing ahead."
+ },
+ {
+  "q": "You are approaching a green traffic light and traffic is blocking the intersection. What is the best thing to do?",
+  "choices": [
+   "A)Partially enter the intersection to establish your right-of-way.",
+   "B)Don't enter the intersection until you can get completely across.",
+   "C)Continue into the intersection and wait for traffic to clear."
+  ],
+  "answer": "B)Don't enter the intersection until you can get completely across."
+ },
+ {
+  "q": "When being passed by another vehicle:",
+  "choices": [
+   "A)Brake hard.",
+   "B)Maintain a constant speed.",
+   "C)Speed up."
+  ],
+  "answer": "B)Maintain a constant speed."
+ },
+ {
+  "q": "There are two traffic lanes moving in your direction. You are driving in the left lane and many vehicles are passing you on the right. If the driver behind you wishes to drive faster, you should:",
+  "choices": [
+   "A)Stay in your lane so you don't impede the flow of traffic.",
+   "B)Drive onto the left shoulder to let the other vehicles pass.",
+   "C)Move into the right lane when it is safe."
+  ],
+  "answer": "C)Move into the right lane when it is safe."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Yield the right-of-way.",
+   "B)No passing zone.",
+   "C)Reduction in lanes."
+  ],
+  "answer": "A)Yield the right-of-way."
+ },
+ {
+  "q": "Yellow lines separate:",
+  "choices": [
+   "A)Traffic lanes on one-way streets.",
+   "B)Traffic moving in opposite directions on two-way roads.",
+   "C)All carpool lanes from regular traffic lanes."
+  ],
+  "answer": "B)Traffic moving in opposite directions on two-way roads."
+ },
+ {
+  "q": "From top to bottom, the following is the proper order for traffic lights:",
+  "choices": [
+   "A)Red, yellow, green.",
+   "B)Red, green, yellow.",
+   "C)Green, red, yellow."
+  ],
+  "answer": "A)Red, yellow, green."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Side road.",
+   "B)Merge.",
+   "C)Yield the right-of-way."
+  ],
+  "answer": "A)Side road."
+ },
+ {
+  "q": "The driver ahead of you stops at a crosswalk. What should you do?",
+  "choices": [
+   "A)Cautiously pass the vehicle at 10 mph or slower.",
+   "B)Stop, proceeding only when all the pedestrians have crossed.",
+   "C)Change lanes, look carefully, and pass the stopped vehicle."
+  ],
+  "answer": "B)Stop, proceeding only when all the pedestrians have crossed."
+ },
+ {
+  "q": "If you are about to be hit from the rear, you should not:",
+  "choices": [
+   "A)Release your seat belt.",
+   "B)Brace yourself.",
+   "C)Press your head against the head restraint."
+  ],
+  "answer": "A)Release your seat belt."
+ },
+ {
+  "q": "Drivers must use their seat belt:",
+  "choices": [
+   "A)Unless they are driving a vehicle built before 1978.",
+   "B)Unless they are driving a limousine.",
+   "C)And failure to do so will result in a traffic ticket."
+  ],
+  "answer": "C)And failure to do so will result in a traffic ticket."
+ },
+ {
+  "q": "If you park facing uphill on a street with a curb, set the parking brake and:",
+  "choices": [
+   "A)Turn the front wheels toward the curb.",
+   "B)Turn the front wheels away from the curb.",
+   "C)Leave the front wheels straight."
+  ],
+  "answer": "B)Turn the front wheels away from the curb."
+ },
+ {
+  "q": "When you see this black and yellow sign, it means:",
+  "choices": [
+   "A)The road to the right is for one-way traffic only.",
+   "B)There is a detour to the right due to road construction.",
+   "C)The road ahead changes direction at an extreme angle."
+  ],
+  "answer": "C)The road ahead changes direction at an extreme angle."
+ },
+ {
+  "q": "A solid yellow line on your side of the centerline means:",
+  "choices": [
+   "A)Reduce your speed.",
+   "B)Traffic light ahead.",
+   "C)Do not pass."
+  ],
+  "answer": "C)Do not pass."
+ },
+ {
+  "q": "Which of the following is a dangerous habit when driving in work zones?",
+  "choices": [
+   "A)Tailgating another vehicle",
+   "B)Failing to carefully watch for workers and moving equipment",
+   "C)Both of the above"
+  ],
+  "answer": "C)Both of the above"
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)No U-turn.",
+   "B)Traffic signal ahead.",
+   "C)Railroad ahead."
+  ],
+  "answer": "A)No U-turn."
+ },
+ {
+  "q": "When passing, you should move back into the right lane when:",
+  "choices": [
+   "A)You are one vehicle length ahead of the passed vehicle.",
+   "B)You can see both headlights of the passed vehicle in your rearview mirror.",
+   "C)You are 50 feet ahead of the passed vehicle."
+  ],
+  "answer": "B)You can see both headlights of the passed vehicle in your rearview mirror."
+ },
+ {
+  "q": "It is necessary to use your low beams any time you are:",
+  "choices": [
+   "A)On a lighted street.",
+   "B)On a freeway.",
+   "C)In fog."
+  ],
+  "answer": "C)In fog."
+ },
+ {
+  "q": "Reaction time is slower after:",
+  "choices": [
+   "A)Drinking alcohol.",
+   "B)Sleeping.",
+   "C)Working hard."
+  ],
+  "answer": "A)Drinking alcohol."
+ },
+ {
+  "q": "Before returning to your original lane after passing another vehicle, you should:",
+  "choices": [
+   "A)Beep your horn.",
+   "B)See both headlights of the passed vehicle in your rearview mirror.",
+   "C)Flash your headlights."
+  ],
+  "answer": "B)See both headlights of the passed vehicle in your rearview mirror."
+ },
+ {
+  "q": "When approaching a person who is crossing the street while using a white cane or guide dog, you should:",
+  "choices": [
+   "A)Stop until the person is well away from your path of travel.",
+   "B)Honk your horn as you proceed past them.",
+   "C)Carefully drive around them."
+  ],
+  "answer": "A)Stop until the person is well away from your path of travel."
+ },
+ {
+  "q": "When driving behind another vehicle at night, you should:",
+  "choices": [
+   "A)Keep your headlights on the low beam setting.",
+   "B)Use your high beam headlights until you are within 10 feet of the vehicle ahead.",
+   "C)Use your high beam headlights."
+  ],
+  "answer": "A)Keep your headlights on the low beam setting."
+ },
+ {
+  "q": "Which child would require a child passenger restraint system?",
+  "choices": [
+   "A)A 9-year-old who is 4 feet 10 inches tall",
+   "B)A 10-year-old who is 5 feet 3 inches tall",
+   "C)A 7-year-old who is 4 feet 8 inches tall"
+  ],
+  "answer": "C)A 7-year-old who is 4 feet 8 inches tall"
+ },
+ {
+  "q": "When you tailgate other drivers (drive closely to their rear bumper):",
+  "choices": [
+   "A)You can frustrate the other drivers and make them angry.",
+   "B)Your actions cannot result in a traffic citation.",
+   "C)You help reduce traffic congestion."
+  ],
+  "answer": "A)You can frustrate the other drivers and make them angry."
+ },
+ {
+  "q": "If your cell phone rings while you are driving and you do not have a hands-free device, you should:",
+  "choices": [
+   "A)Answer the call because it may be an emergency.",
+   "B)Let the call go to voicemail.",
+   "C)Check the incoming number before answering the call."
+  ],
+  "answer": "B)Let the call go to voicemail."
+ },
+ {
+  "q": "Should you always drive more slowly than other traffic?",
+  "choices": [
+   "A)No, you can block traffic when you drive too slowly.",
+   "B)Yes, it is a good defensive driving technique.",
+   "C)Yes, it is always safer than driving faster than other traffic."
+  ],
+  "answer": "A)No, you can block traffic when you drive too slowly."
+ },
+ {
+  "q": "If you must park your vehicle in an area not usually used for parking:",
+  "choices": [
+   "A)Park with your reverse lights on.",
+   "B)Make sure your vehicle is visible to drivers approaching from any direction.",
+   "C)Park five feet from the curb."
+  ],
+  "answer": "B)Make sure your vehicle is visible to drivers approaching from any direction."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Do not enter.",
+   "B)Stop ahead.",
+   "C)Roadwork or maintenance is present."
+  ],
+  "answer": "C)Roadwork or maintenance is present."
+ },
+ {
+  "q": "This road sign means:",
+  "choices": [
+   "A)Intersection ahead.",
+   "B)Steep grade ahead.",
+   "C)Winding road."
+  ],
+  "answer": "B)Steep grade ahead."
+ },
+ {
+  "q": "When a school bus is stopped on the road ahead to load or unload children, you must:",
+  "choices": [
+   "A)Come to a complete stop until all the children have left the bus.",
+   "B)Come to a complete stop until the red lights stop flashing and the stop arm is withdrawn.",
+   "C)Change lanes, drive slowly, and pass the bus cautiously."
+  ],
+  "answer": "B)Come to a complete stop until the red lights stop flashing and the stop arm is withdrawn."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)No left turn can be made here.",
+   "B)A left turn can be made only after stopping.",
+   "C)All traffic must turn right at the next intersection."
+  ],
+  "answer": "A)No left turn can be made here."
+ },
+ {
+  "q": "You must notify the DMV within five days if you:",
+  "choices": [
+   "A)Sell or transfer your vehicle.",
+   "B)Fail a smog test.",
+   "C)Get a new prescription for lenses or contacts."
+  ],
+  "answer": "A)Sell or transfer your vehicle."
+ },
+ {
+  "q": "Unless otherwise posted, the speed limit in a residential area is:",
+  "choices": [
+   "A)20 mph.",
+   "B)25 mph.",
+   "C)30 mph."
+  ],
+  "answer": "B)25 mph."
+ },
+ {
+  "q": "Which of these statements is true about drinking alcohol and driving?",
+  "choices": [
+   "A)If you can walk in a straight line after drinking, it is safe to drive.",
+   "B)If you are under the legal blood alcohol concentration limit, your driving isn't impaired.",
+   "C)Alcohol affects judgement, which is needed to drive safely."
+  ],
+  "answer": "C)Alcohol affects judgement, which is needed to drive safely."
+ },
+ {
+  "q": "Vehicles stopped behind a school bus with its red lights flashing must remain stopped until:",
+  "choices": [
+   "A)All students are off the bus.",
+   "B)The stop arm is retracted.",
+   "C)The stop arm is retracted and the bus resumes motion."
+  ],
+  "answer": "C)The stop arm is retracted and the bus resumes motion."
+ },
+ {
+  "q": "You are driving in the far right lane of a four-lane freeway and notice thick broken white lines on the left side of your lane. You are driving in:",
+  "choices": [
+   "A)The carpool lane and must merge into the next lane.",
+   "B)A special lane for slow-moving vehicles.",
+   "C)An exit lane."
+  ],
+  "answer": "C)An exit lane."
+ },
+ {
+  "q": "You see a flashing yellow traffic signal at an upcoming intersection. The flashing yellow light means:",
+  "choices": [
+   "A)Stop before entering the intersection, as long as you can do so safely.",
+   "B)Stop. Yield to all cross traffic before crossing the intersection.",
+   "C)Slow down and cross the intersection carefully."
+  ],
+  "answer": "C)Slow down and cross the intersection carefully."
+ },
+ {
+  "q": "If you drive more slowly than the flow of traffic, you will most likely:",
+  "choices": [
+   "A)Interfere with traffic and receive a ticket.",
+   "B)Improve traffic flow.",
+   "C)Demonstrate defensive driving techniques."
+  ],
+  "answer": "A)Interfere with traffic and receive a ticket."
+ },
+ {
+  "q": "This yellow sign means:",
+  "choices": [
+   "A)Controlled railroad ahead.",
+   "B)Be prepared to stop if the light is flashing.",
+   "C)There is a traffic signal ahead."
+  ],
+  "answer": "C)There is a traffic signal ahead."
+ },
+ {
+  "q": "You may drive a motor vehicle in a bike lane:",
+  "choices": [
+   "A)If you drive more slowly than 15 mph.",
+   "B)No more than 200 feet before making a right turn.",
+   "C)Whenever bicyclists are not present."
+  ],
+  "answer": "B)No more than 200 feet before making a right turn."
+ },
+ {
+  "q": "Give the right-of-way to any pedestrian who is:",
+  "choices": [
+   "A)In a marked crosswalk.",
+   "B)In any crosswalk or intersection.",
+   "C)Crossing any street."
+  ],
+  "answer": "C)Crossing any street."
+ },
+ {
+  "q": "California's \"Basic Speed Law\" says you must:",
+  "choices": [
+   "A)Keep your speed close to that of other traffic.",
+   "B)Never drive faster than is safe for current conditions.",
+   "C)Always drive at the posted speed limit."
+  ],
+  "answer": "B)Never drive faster than is safe for current conditions."
+ },
+ {
+  "q": "You should allow an extra cushion of space:",
+  "choices": [
+   "A)When following a station wagon.",
+   "B)When following a driver who cannot see the rear of their vehicle.",
+   "C)When following a small passenger car."
+  ],
+  "answer": "B)When following a driver who cannot see the rear of their vehicle."
+ },
+ {
+  "q": "When driving on a multilane street with two-way traffic:",
+  "choices": [
+   "A)Drive alongside other vehicles so the drivers can see you.",
+   "B)You should drive ahead of or behind the other vehicles.",
+   "C)It is safest to drive in the lane next to the centerline."
+  ],
+  "answer": "B)You should drive ahead of or behind the other vehicles."
+ },
+ {
+  "q": "This road sign means:",
+  "choices": [
+   "A)Intersection ahead.",
+   "B)Merging traffic.",
+   "C)Steep hill ahead."
+  ],
+  "answer": "C)Steep hill ahead."
+ },
+ {
+  "q": "U-turns in residential districts are legal:",
+  "choices": [
+   "A)On a one-way street on a green arrow.",
+   "B)When there are no vehicles approaching nearby.",
+   "C)Across sets of solid double yellow lines."
+  ],
+  "answer": "B)When there are no vehicles approaching nearby."
+ },
+ {
+  "q": "Which of these vehicles must always stop before crossing railroad tracks?",
+  "choices": [
+   "A)Tank trucks marked with hazardous materials placards.",
+   "B)Motor homes or pickup trucks towing a boat trailer.",
+   "C)Any vehicle with three or more axles and weighing more than 4,000 pounds."
+  ],
+  "answer": "A)Tank trucks marked with hazardous materials placards."
+ },
+ {
+  "q": "You may cross a double yellow line to pass another vehicle if the yellow line next to:",
+  "choices": [
+   "A)The other side of the road is a solid line.",
+   "B)Your side of the road is a broken line.",
+   "C)The other side of the road is a broken line."
+  ],
+  "answer": "B)Your side of the road is a broken line."
+ },
+ {
+  "q": "If you encounter an aggressive driver, you should:",
+  "choices": [
+   "A)Challenge them.",
+   "B)Get out of their way.",
+   "C)Speed up."
+  ],
+  "answer": "B)Get out of their way."
+ },
+ {
+  "q": "Water on the road can cause a vehicle to hydroplane. Your car may hydroplane at speeds as low as:",
+  "choices": [
+   "A)45 miles per hour.",
+   "B)35 miles per hour.",
+   "C)40 miles per hour."
+  ],
+  "answer": "B)35 miles per hour."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Do not enter.",
+   "B)Yield the right-of-way.",
+   "C)Reserved parking for persons with disabilities."
+  ],
+  "answer": "A)Do not enter."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Railroad ahead.",
+   "B)No passing zone.",
+   "C)School zone."
+  ],
+  "answer": "A)Railroad ahead."
+ },
+ {
+  "q": "If you are convicted of driving with an excessive blood alcohol concentration (BAC), you may be sentenced to serve:",
+  "choices": [
+   "A)Up to six months in jail.",
+   "B)Up to 12 months in jail.",
+   "C)No jail time, but you must pay a fine of $500."
+  ],
+  "answer": "A)Up to six months in jail."
+ },
+ {
+  "q": "If you have trouble seeing other vehicles because of dust or smoke blowing across the roadway, you should drive more slowly and turn on your:",
+  "choices": [
+   "A)Emergency flashers.",
+   "B)Parking lights.",
+   "C)Headlights."
+  ],
+  "answer": "C)Headlights."
+ },
+ {
+  "q": "While driving, you should look 10 to 15 seconds ahead of you:",
+  "choices": [
+   "A)And focus on the middle of the road.",
+   "B)Because it is a legal requirement.",
+   "C)To see potential hazards early."
+  ],
+  "answer": "C)To see potential hazards early."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)No right turn.",
+   "B)Right turn on red light permitted with caution.",
+   "C)All traffic must turn right at next intersection."
+  ],
+  "answer": "A)No right turn."
+ },
+ {
+  "q": "To see vehicles in your blind spots, you should check:",
+  "choices": [
+   "A)The inside rearview mirror.",
+   "B)The outside rearview mirror.",
+   "C)Over your shoulders."
+  ],
+  "answer": "C)Over your shoulders."
+ },
+ {
+  "q": "Continuous hard braking on ice and snow often:",
+  "choices": [
+   "A)Helps you stop faster.",
+   "B)Locks the front wheels of a vehicle, causing a loss of steering.",
+   "C)Keeps the brakes from freezing."
+  ],
+  "answer": "B)Locks the front wheels of a vehicle, causing a loss of steering."
+ },
+ {
+  "q": "Which of the following statements is true?",
+  "choices": [
+   "A)Driving too slowly is not an unsafe practice.",
+   "B)Driving too slowly on certain highways can be dangerous.",
+   "C)The speed at which you drive a vehicle does not affect safety."
+  ],
+  "answer": "B)Driving too slowly on certain highways can be dangerous."
+ },
+ {
+  "q": "In inclement weather, you should:",
+  "choices": [
+   "A)Steer off the road.",
+   "B)Drive in a low gear.",
+   "C)Steer and brake smoothly."
+  ],
+  "answer": "C)Steer and brake smoothly."
+ },
+ {
+  "q": "When a school bus is stopped ahead on your side of the road with its red lights flashing, you must:",
+  "choices": [
+   "A)Slow to a speed no faster than 10 mph.",
+   "B)Stop until the lights stop flashing.",
+   "C)Change lanes and pass cautiously."
+  ],
+  "answer": "B)Stop until the lights stop flashing."
+ },
+ {
+  "q": "If bad weather makes it difficult for you to see clearly, you should:",
+  "choices": [
+   "A)Speed up to get off the road quickly.",
+   "B)Drive in the lane closest to oncoming traffic.",
+   "C)Increase your following distance."
+  ],
+  "answer": "C)Increase your following distance."
+ },
+ {
+  "q": "If a tire blows out, you should:",
+  "choices": [
+   "A)Apply the brake and hold it.",
+   "B)Hold the steering wheel tightly and use the brakes lightly.",
+   "C)Pull over quickly."
+  ],
+  "answer": "B)Hold the steering wheel tightly and use the brakes lightly."
+ },
+ {
+  "q": "Which statement is true?",
+  "choices": [
+   "A)You should put on your cruise control near a railroad crossing to maintain a constant speed.",
+   "B)You must stop at a railroad crossing when directed to do so by a flagger or stop sign.",
+   "C)You have the right-of-way at a railroad crossing and do not need to stop."
+  ],
+  "answer": "B)You must stop at a railroad crossing when directed to do so by a flagger or stop sign."
+ },
+ {
+  "q": "This bicyclist is signaling:",
+  "choices": [
+   "A)A left turn.",
+   "B)An upcoming stop.",
+   "C)A right turn."
+  ],
+  "answer": "A)A left turn."
+ },
+ {
+  "q": "Which of the following statements about driving speed is true?",
+  "choices": [
+   "A)As your speed increases, the chance of a fatality increases.",
+   "B)As your speed increases, so should your following distance.",
+   "C)Both of the above."
+  ],
+  "answer": "C)Both of the above."
+ },
+ {
+  "q": "When driving in fog, it is best to drive with:",
+  "choices": [
+   "A)High beam headlights.",
+   "B)Low beam headlights.",
+   "C)Four-way flashers."
+  ],
+  "answer": "B)Low beam headlights."
+ },
+ {
+  "q": "Which of these statements is true about driving and taking medications?",
+  "choices": [
+   "A)Most cold medications can make a person drowsy.",
+   "B)Over-the-counter medications cannot impair driving ability if taken in the recommended dosages.",
+   "C)Medications are safe to take at any time, if prescribed by a doctor."
+  ],
+  "answer": "A)Most cold medications can make a person drowsy."
+ },
+ {
+  "q": "As you approach an intersection with a flashing yellow light:",
+  "choices": [
+   "A)Stop before crossing the intersection.",
+   "B)Slow down and proceed with caution.",
+   "C)Wait for a green light before proceeding."
+  ],
+  "answer": "B)Slow down and proceed with caution."
+ },
+ {
+  "q": "You may pass a vehicle when:",
+  "choices": [
+   "A)You are on a hill or curve.",
+   "B)You are on a road with a solid line next to your lane.",
+   "C)You are on a road with a broken line next to your lane."
+  ],
+  "answer": "C)You are on a road with a broken line next to your lane."
+ },
+ {
+  "q": "When using a roundabout, drivers should:",
+  "choices": [
+   "A)Stop in the middle of the roundabout.",
+   "B)Yield to traffic already in the roundabout.",
+   "C)Yield to entering traffic."
+  ],
+  "answer": "B)Yield to traffic already in the roundabout."
+ },
+ {
+  "q": "If your vehicle starts to lose traction because of water on the road, you should:",
+  "choices": [
+   "A)Drive at a constant speed to gain better traction.",
+   "B)Apply the brakes firmly to prevent your vehicle from sliding.",
+   "C)Slow down gradually and not apply the brakes."
+  ],
+  "answer": "C)Slow down gradually and not apply the brakes."
+ },
+ {
+  "q": "This sign shows one type of:",
+  "choices": [
+   "A)Right turn.",
+   "B)Intersection.",
+   "C)Lane change."
+  ],
+  "answer": "B)Intersection."
+ },
+ {
+  "q": "You want to park uphill on a two-way road and there is no curb. Which direction do you turn your front wheels?",
+  "choices": [
+   "A)Straight ahead",
+   "B)Right, toward the side of the road",
+   "C)Left, toward the center of the road"
+  ],
+  "answer": "B)Right, toward the side of the road"
+ },
+ {
+  "q": "What is the difference between traffic lights with red arrows and those with solid red lights?",
+  "choices": [
+   "A)Red arrows are only used to stop traffic which is turning.",
+   "B)Red arrows are only used for protected turn lanes.",
+   "C)You cannot turn on a red arrow, even if you stop first."
+  ],
+  "answer": "C)You cannot turn on a red arrow, even if you stop first."
+ },
+ {
+  "q": "When entering the interstate, check for a gap in traffic in the nearest lane, adjust your speed to match traffic, signal, and:",
+  "choices": [
+   "A)Expect traffic to allow you to proceed into the lane, since you have the right-of-way.",
+   "B)Merge carefully into the gap.",
+   "C)Wait for the lane to clear before merging."
+  ],
+  "answer": "B)Merge carefully into the gap."
+ },
+ {
+  "q": "Extra space in front of a large truck is needed for:",
+  "choices": [
+   "A)Other drivers to merge onto the freeway.",
+   "B)The truck driver to stop the vehicle.",
+   "C)Other drivers when they want to slow down."
+  ],
+  "answer": "B)The truck driver to stop the vehicle."
+ },
+ {
+  "q": "On a multilane road, a dashed yellow line next to a solid yellow line means:",
+  "choices": [
+   "A)Passing is prohibited from both directions.",
+   "B)Passing is permitted from both directions.",
+   "C)Passing is permitted only from the direction next to the dashed line."
+  ],
+  "answer": "C)Passing is permitted only from the direction next to the dashed line."
+ },
+ {
+  "q": "Tailgating other drivers (driving too closely to their rear bumper):",
+  "choices": [
+   "A)Can frustrate other drivers and make them angry.",
+   "B)Cannot result in a traffic citation.",
+   "C)Reduces collisions by preventing being \"cut off.\""
+  ],
+  "answer": "A)Can frustrate other drivers and make them angry."
+ },
+ {
+  "q": "If you are continually being passed on the right and the left while driving in the center lane of an expressway, you should:",
+  "choices": [
+   "A)Stay in the center lane.",
+   "B)Move to the lane on your right.",
+   "C)Move to the lane on your left."
+  ],
+  "answer": "B)Move to the lane on your right."
+ },
+ {
+  "q": "Sudden wind gusts on highways:",
+  "choices": [
+   "A)Generally affect only the movement of large vehicles.",
+   "B)Only cause visibility problems.",
+   "C)Can cause problems for all vehicles."
+  ],
+  "answer": "C)Can cause problems for all vehicles."
+ },
+ {
+  "q": "When passing another vehicle, you should return to your original lane when:",
+  "choices": [
+   "A)You can see both headlights of the passed vehicle in your rearview mirror.",
+   "B)You have cleared the front bumper of the passed vehicle.",
+   "C)You are 50 feet in front of the passed vehicle."
+  ],
+  "answer": "A)You can see both headlights of the passed vehicle in your rearview mirror."
+ },
+ {
+  "q": "What should you do at an intersection with a flashing yellow signal light?",
+  "choices": [
+   "A)Maintain your speed but watch for other vehicles.",
+   "B)Stop before crossing the intersection.",
+   "C)Slow down and cross the intersection carefully."
+  ],
+  "answer": "C)Slow down and cross the intersection carefully."
+ },
+ {
+  "q": "When parking your vehicle on any hill:",
+  "choices": [
+   "A)One of your rear wheels should touch the curb.",
+   "B)Use your parking brake and leave the vehicle in \"park.\"",
+   "C)Your front wheels should be parallel to the road, if there is no curb."
+  ],
+  "answer": "B)Use your parking brake and leave the vehicle in \"park.\""
+ },
+ {
+  "q": "It is more dangerous to drive at night than during the day because:",
+  "choices": [
+   "A)You cannot see as far ahead at night.",
+   "B)The road is always more slippery at night.",
+   "C)Your reaction time is slower at night."
+  ],
+  "answer": "A)You cannot see as far ahead at night."
+ },
+ {
+  "q": "At dawn or dusk and in rain or snow, it can be hard to see and be seen. A good way to let other drivers know you are there is to turn:",
+  "choices": [
+   "A)Up the instrumental panel lights.",
+   "B)On your parking lights.",
+   "C)On your headlights."
+  ],
+  "answer": "C)On your headlights."
+ },
+ {
+  "q": "Large trucks turning onto a street with two lanes in each direction:",
+  "choices": [
+   "A)May complete the turn in either of the two lanes.",
+   "B)Often have to use the left lane to complete the turn.",
+   "C)Must stay in the right lane at all times while turning."
+  ],
+  "answer": "B)Often have to use the left lane to complete the turn."
+ },
+ {
+  "q": "You should not start across an intersection if you know you will block the intersection when the light turns red:",
+  "choices": [
+   "A)Under any circumstances.",
+   "B)Unless you entered the intersection on a yellow light.",
+   "C)Unless you entered the intersection on a green light."
+  ],
+  "answer": "A)Under any circumstances."
+ },
+ {
+  "q": "When turning left at an intersection:",
+  "choices": [
+   "A)You should always yield to oncoming traffic and pedestrians.",
+   "B)Oncoming traffic and pedestrians should yield to you.",
+   "C)You should never yield to oncoming traffic and pedestrians."
+  ],
+  "answer": "A)You should always yield to oncoming traffic and pedestrians."
+ },
+ {
+  "q": "This sign shows one type of:",
+  "choices": [
+   "A)Intersection.",
+   "B)Road curve.",
+   "C)Right turn."
+  ],
+  "answer": "A)Intersection."
+ },
+ {
+  "q": "This road sign means:",
+  "choices": [
+   "A)Cars in the right lane must slow down.",
+   "B)No left turn.",
+   "C)Merge."
+  ],
+  "answer": "C)Merge."
+ },
+ {
+  "q": "If you are being followed too closely on a two-lane road:",
+  "choices": [
+   "A)Reduce your speed slowly to encourage the tailgater to drive around you.",
+   "B)Speed up to increase the distance between you and the other car.",
+   "C)Apply your brakes to slow down, then resume your original speed."
+  ],
+  "answer": "A)Reduce your speed slowly to encourage the tailgater to drive around you."
+ },
+ {
+  "q": "A flashing yellow traffic signal at an intersection means:",
+  "choices": [
+   "A)You should treat the signal like a stop sign.",
+   "B)Stop. Yield to all cross traffic before crossing in the intersection.",
+   "C)Slow down and be alert at the upcoming intersection."
+  ],
+  "answer": "C)Slow down and be alert at the upcoming intersection."
+ },
+ {
+  "q": "Which lane must you be in before making a left turn from a one-way street?",
+  "choices": [
+   "A)The lane nearest the left curb.",
+   "B)The lane nearest the center of the street.",
+   "C)The lane nearest the right curb."
+  ],
+  "answer": "C)The lane nearest the right curb."
+ },
+ {
+  "q": "Stopping distances and the severity of collisions:",
+  "choices": [
+   "A)Decrease as a vehicle's speed increases.",
+   "B)Are not affected by a vehicle's speed.",
+   "C)Increase as a vehicle's speed increases."
+  ],
+  "answer": "C)Increase as a vehicle's speed increases."
+ },
+ {
+  "q": "Blocking an intersection during \"rush hour\" traffic is not permitted:",
+  "choices": [
+   "A)Unless you entered the intersection on a green light.",
+   "B)Under any circumstances, even if your light is green.",
+   "C)Unless you have the right-of-way or a green light."
+  ],
+  "answer": "B)Under any circumstances, even if your light is green."
+ },
+ {
+  "q": "On a freeway, you should look farther ahead than you would on a city street:",
+  "choices": [
+   "A)In order to see potential hazards early.",
+   "B)Because it takes a quarter of a mile to stop your vehicle completely.",
+   "C)Because it helps you keep up with traffic."
+  ],
+  "answer": "A)In order to see potential hazards early."
+ },
+ {
+  "q": "At an uncontrolled intersection where you cannot see cross traffic until you are just about to enter the intersection, the speed limit is:",
+  "choices": [
+   "A)15 mph.",
+   "B)25 mph.",
+   "C)20 mph."
+  ],
+  "answer": "A)15 mph."
+ },
+ {
+  "q": "If you come to an intersection controlled by a flashing yellow light, you must:",
+  "choices": [
+   "A)Wait for the green light before proceeding.",
+   "B)Slow down and cross the intersection carefully.",
+   "C)Stop before crossing the intersection."
+  ],
+  "answer": "B)Slow down and cross the intersection carefully."
+ },
+ {
+  "q": "You are on the freeway and traffic is merging into your lane. You should:",
+  "choices": [
+   "A)Make room for the merging traffic, if possible.",
+   "B)Assert your right-of-way by driving faster.",
+   "C)Always maintain your position."
+  ],
+  "answer": "A)Make room for the merging traffic, if possible."
+ },
+ {
+  "q": "The speed limit in any alley is:",
+  "choices": [
+   "A)20 mph.",
+   "B)15 mph.",
+   "C)25 mph."
+  ],
+  "answer": "B)15 mph."
+ },
+ {
+  "q": "Which of the following statements is correct?",
+  "choices": [
+   "A)Use your left foot to brake.",
+   "B)Use your right foot for both braking and accelerating your vehicle.",
+   "C)You should always brake abruptly to ensure stopping."
+  ],
+  "answer": "B)Use your right foot for both braking and accelerating your vehicle."
+ },
+ {
+  "q": "If a vehicle is equipped with airbags:",
+  "choices": [
+   "A)Seat belts should still be worn.",
+   "B)Seat belts do not need to be worn.",
+   "C)Seat belts should be worn behind the back."
+  ],
+  "answer": "A)Seat belts should still be worn."
+ },
+ {
+  "q": "This sign indicates that the road ahead:",
+  "choices": [
+   "A)Turns sharply right, then left.",
+   "B)Curves right, then left.",
+   "C)Curves right."
+  ],
+  "answer": "B)Curves right, then left."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Stop sign ahead.",
+   "B)Railroad crossing ahead.",
+   "C)Construction ahead."
+  ],
+  "answer": "B)Railroad crossing ahead."
+ },
+ {
+  "q": "Roads with double solid yellow line markings down the center indicate that passing is:",
+  "choices": [
+   "A)Allowed from both directions.",
+   "B)Allowed only from your direction of travel.",
+   "C)Not allowed from either direction."
+  ],
+  "answer": "C)Not allowed from either direction."
+ },
+ {
+  "q": "What is the only medically proven method of removing alcohol or other drug combinations from your system?",
+  "choices": [
+   "A)Breathe in some fresh air.",
+   "B)Give your body time.",
+   "C)Drink coffee."
+  ],
+  "answer": "B)Give your body time."
+ },
+ {
+  "q": "Having a driver license is a:",
+  "choices": [
+   "A)Right, not a privilege.",
+   "B)Privilege, not a right.",
+   "C)Requirement."
+  ],
+  "answer": "B)Privilege, not a right."
+ },
+ {
+  "q": "Excessive speed:",
+  "choices": [
+   "A)Does not increase the chance of a crash.",
+   "B)Increases your ability to react to a hazard.",
+   "C)Often leads to high-risk decision-making."
+  ],
+  "answer": "C)Often leads to high-risk decision-making."
+ },
+ {
+  "q": "Alcohol is:",
+  "choices": [
+   "A)A stimulant.",
+   "B)An antihistamine.",
+   "C)A depressant."
+  ],
+  "answer": "C)A depressant."
+ },
+ {
+  "q": "You can drive off the road to pass another vehicle:",
+  "choices": [
+   "A)If the vehicle ahead is turning left.",
+   "B)If there are two or more lanes traveling in your direction.",
+   "C)Under no circumstances."
+  ],
+  "answer": "C)Under no circumstances."
+ },
+ {
+  "q": "Using a cell phone while operating a motor vehicle is considered a distraction because:",
+  "choices": [
+   "A)It causes the driver to be concerned about the cost of the call.",
+   "B)It occupies the driver's hands, eyes, and mind.",
+   "C)It is an activity that draws the attention of other drivers."
+  ],
+  "answer": "B)It occupies the driver's hands, eyes, and mind."
+ },
+ {
+  "q": "Before you change lanes, you should check your mirrors and:",
+  "choices": [
+   "A)Never look over your right shoulder.",
+   "B)Always slow down in your traffic lane.",
+   "C)Glance over your shoulder."
+  ],
+  "answer": "C)Glance over your shoulder."
+ },
+ {
+  "q": "Dim your headlights for oncoming vehicles or when you are within 300 feet of a vehicle:",
+  "choices": [
+   "A)That you are approaching from behind.",
+   "B)Approaching you from behind.",
+   "C)That you have already passed."
+  ],
+  "answer": "A)That you are approaching from behind."
+ },
+ {
+  "q": "You are driving on the freeway behind a large truck. You should drive:",
+  "choices": [
+   "A)Closer behind the truck than you would if following a passenger vehicle.",
+   "B)Farther behind the truck than you would if following a passenger vehicle.",
+   "C)To the right side of the truck and wait to pass."
+  ],
+  "answer": "B)Farther behind the truck than you would if following a passenger vehicle."
+ },
+ {
+  "q": "Increase your following distance when driving behind a large vehicle:",
+  "choices": [
+   "A)To better see around the sides of the vehicle.",
+   "B)Because other drivers tend to pull behind large vehicles before trying to pass them.",
+   "C)Because following too closely will get you caught in the vehicle's slipstream."
+  ],
+  "answer": "A)To better see around the sides of the vehicle."
+ },
+ {
+  "q": "This white sign means:",
+  "choices": [
+   "A)The railroad crossing is controlled. Continue at your regular speed.",
+   "B)Look, listen, and prepare to stop at the crossing if necessary.",
+   "C)Stop at the railroad tracks and wait for a signal before crossing."
+  ],
+  "answer": "B)Look, listen, and prepare to stop at the crossing if necessary."
+ },
+ {
+  "q": "Smoking inside a vehicle with a person younger than 18 years of age is:",
+  "choices": [
+   "A)Legal, if it is your child.",
+   "B)Illegal at all times.",
+   "C)Not restricted by law."
+  ],
+  "answer": "B)Illegal at all times."
+ },
+ {
+  "q": "A distraction when driving is:",
+  "choices": [
+   "A)Anything that causes evasive action while driving.",
+   "B)Anything that takes your attention away from driving.",
+   "C)Anything that causes you to pay more attention to driving."
+  ],
+  "answer": "B)Anything that takes your attention away from driving."
+ },
+ {
+  "q": "You must notify the DMV within five days if you:",
+  "choices": [
+   "A)Are cited for a traffic violation.",
+   "B)Sell or transfer your vehicle.",
+   "C)Paint your vehicle a different color."
+  ],
+  "answer": "B)Sell or transfer your vehicle."
+ },
+ {
+  "q": "Adjust your rearview and side mirrors:",
+  "choices": [
+   "A)Before you start driving.",
+   "B)Whenever you need to use them.",
+   "C)Before you get into the car."
+  ],
+  "answer": "A)Before you start driving."
+ },
+ {
+  "q": "Night driving presents unique problems because:",
+  "choices": [
+   "A)The speed limit is increased at night.",
+   "B)There are fewer cars on the roads at night.",
+   "C)Distance and vehicle speed are difficult to judge in the dark."
+  ],
+  "answer": "C)Distance and vehicle speed are difficult to judge in the dark."
+ },
+ {
+  "q": "Which of the following driving skills is/are affected by the use of alcohol and/or drugs?",
+  "choices": [
+   "A)Alertness.",
+   "B)Coordination.",
+   "C)Both of the above."
+  ],
+  "answer": "C)Both of the above."
+ },
+ {
+  "q": "If you miss your exit on the freeway, you should not:",
+  "choices": [
+   "A)Continue on the freeway and find an alternate route to your destination.",
+   "B)Proceed to the next exit, leave the freeway, and return to your proper exit.",
+   "C)Back up on the road or shoulder."
+  ],
+  "answer": "C)Back up on the road or shoulder."
+ },
+ {
+  "q": "A pedestrian starts to cross the street after the \"Don't Walk\" signal begins to flash. The pedestrian is in the middle of the street when your signal light changes to green. You should:",
+  "choices": [
+   "A)Proceed if you have the right-of-way.",
+   "B)Proceed if the pedestrian is not in your lane.",
+   "C)Wait until the pedestrian crosses the street before proceeding."
+  ],
+  "answer": "C)Wait until the pedestrian crosses the street before proceeding."
+ },
+ {
+  "q": "What is an important step in turning?",
+  "choices": [
+   "A)Check traffic in all directions.",
+   "B)Increase your speed.",
+   "C)Always move to the left lane."
+  ],
+  "answer": "A)Check traffic in all directions."
+ },
+ {
+  "q": "When changing lanes on a freeway, you should:",
+  "choices": [
+   "A)Signal for at least five seconds.",
+   "B)Slow down before you start to change lanes.",
+   "C)Assume there is enough space in the next lane for your vehicle, if you signal first."
+  ],
+  "answer": "A)Signal for at least five seconds."
+ },
+ {
+  "q": "If a child is riding a bicycle near your vehicle:",
+  "choices": [
+   "A)Beep your horn.",
+   "B)Expect the child to be in total control of the bicycle.",
+   "C)Expect the unexpected."
+  ],
+  "answer": "C)Expect the unexpected."
+ },
+ {
+  "q": "If you are driving on a highway next to a single broken white line marking:",
+  "choices": [
+   "A)You cannot cross the line to pass.",
+   "B)You may cross the line to pass and change lanes.",
+   "C)You may only cross the line to change lanes if you are in the left lane."
+  ],
+  "answer": "B)You may cross the line to pass and change lanes."
+ },
+ {
+  "q": "Always carefully look for motorcycles before you change lanes because:",
+  "choices": [
+   "A)Their small size can make them hard to see.",
+   "B)They usually have the right-of-way at intersections.",
+   "C)It is illegal for motorcycles to share traffic lanes."
+  ],
+  "answer": "A)Their small size can make them hard to see."
+ },
+ {
+  "q": "The safest precaution that you can take when using cellular phones while driving is:",
+  "choices": [
+   "A)To use hands-free devices so you can keep both hands on the steering wheel.",
+   "B)To keep your phone within easy reach so you won't need to take your eyes off the road.",
+   "C)To review the number before answering a call."
+  ],
+  "answer": "A)To use hands-free devices so you can keep both hands on the steering wheel."
+ },
+ {
+  "q": "You are approaching an intersection where a traffic signal is displaying a steady yellow light. A)If you have not already entered the intersection, you should:",
+  "choices": [
+   "B)Speed up to beat the red light.",
+   "C)Come to a safe stop."
+  ],
+  "answer": "C)Come to a safe stop."
+ },
+ {
+  "q": "If oncoming headlights are blinding you while you are driving at night, you should:",
+  "choices": [
+   "A)Look toward the right edge of the road.",
+   "B)Switch your lights to high beams.",
+   "C)Turn your lights on and off."
+  ],
+  "answer": "A)Look toward the right edge of the road."
+ },
+ {
+  "q": "A pentagon-shaped sign is a:",
+  "choices": [
+   "A)Stop sign.",
+   "B)Regulatory sign.",
+   "C)School zone or school crossing sign."
+  ],
+  "answer": "C)School zone or school crossing sign."
+ },
+ {
+  "q": "You are driving on the freeway. The vehicle in front of you is a large truck. You should drive:",
+  "choices": [
+   "A)Closely behind the truck in bad weather because the driver can see farther ahead than you can.",
+   "B)Farther behind the truck than you would when following a passenger vehicle.",
+   "C)No more than one car length behind the truck so the driver can see you."
+  ],
+  "answer": "B)Farther behind the truck than you would when following a passenger vehicle."
+ },
+ {
+  "q": "When parking next to a curb, you should use your turn signals:",
+  "choices": [
+   "A)Only when pulling away from the curb.",
+   "B)When pulling next to, but not away from, the curb.",
+   "C)When pulling next to or away from the curb."
+  ],
+  "answer": "C)When pulling next to or away from the curb."
+ },
+ {
+  "q": "A blood alcohol concentration of 0.02 percent:",
+  "choices": [
+   "A)Won't have any effect on your driving.",
+   "B)Won't put other drivers at risk.",
+   "C)Will double your chances of having an accident."
+  ],
+  "answer": "C)Will double your chances of having an accident."
+ },
+ {
+  "q": "When you want to change lanes, you should never:",
+  "choices": [
+   "A)Move into another lane while within an intersection.",
+   "B)Check your blind spot by looking over your shoulder.",
+   "C)Check for other drivers moving into the same lane."
+  ],
+  "answer": "A)Move into another lane while within an intersection."
+ },
+ {
+  "q": "You have stopped for a train at a railroad crossing. After the train passes, you should:",
+  "choices": [
+   "A)Wait for signal lights to stop flashing.",
+   "B)Look for a second train.",
+   "C)Both of the above."
+  ],
+  "answer": "C)Both of the above."
+ },
+ {
+  "q": "It is illegal to leave a child age ____ or younger alone in a vehicle.",
+  "choices": [
+   "A)Eight",
+   "B)Seven",
+   "C)Six"
+  ],
+  "answer": "C)Six"
+ },
+ {
+  "q": "If you want to pass a bicyclists riding on the right edge of your lane:",
+  "choices": [
+   "A)You must honk your horn before passing the bicyclist.",
+   "B)You must not squeeze past the bicyclist.",
+   "C)You may not pass the bicyclist for any reason."
+  ],
+  "answer": "B)You must not squeeze past the bicyclist."
+ },
+ {
+  "q": "If you are getting tired while driving, you should:",
+  "choices": [
+   "A)Stop and either get rest or change drivers.",
+   "B)Drink something with caffeine.",
+   "C)Open a window."
+  ],
+  "answer": "A)Stop and either get rest or change drivers."
+ },
+ {
+  "q": "The first thing that alcohol effects is:",
+  "choices": [
+   "A)Vision.",
+   "B)Judgment.",
+   "C)Balance."
+  ],
+  "answer": "B)Judgment."
+ },
+ {
+  "q": "When driving on gravel or dirt roads:",
+  "choices": [
+   "A)Your tires grip the road better than when you are driving on pavement.",
+   "B)Your tires do not have as much traction as they do on pavement, so you must slow down.",
+   "C)Visibility is better than on pavement."
+  ],
+  "answer": "B)Your tires do not have as much traction as they do on pavement, so you must slow down."
+ },
+ {
+  "q": "It is unlawful to:",
+  "choices": [
+   "A)Pass another vehicle in any marked no passing zone.",
+   "B)Pass another vehicle over a railroad crossing.",
+   "C)Both of the above."
+  ],
+  "answer": "C)Both of the above."
+ },
+ {
+  "q": "At a red traffic light with a green arrow, you may proceed in the direction of the arrow if:",
+  "choices": [
+   "A)You first come to a complete stop.",
+   "B)You wait until the light changes.",
+   "C)You are in the proper lane and the roadway is clear."
+  ],
+  "answer": "C)You are in the proper lane and the roadway is clear."
+ },
+ {
+  "q": "The amount of alcohol in the blood is referred to as:",
+  "choices": [
+   "A)Implied consent (IC).",
+   "B)Blood alcohol concentration (BAC).",
+   "C)Rate of alcohol consumption (RAC)."
+  ],
+  "answer": "B)Blood alcohol concentration (BAC)."
+ },
+ {
+  "q": "With a Class C driver license, a person may drive:",
+  "choices": [
+   "A)A three-axle vehicle if the Gross Vehicle Weight is less than 6,000 pounds.",
+   "B)Any three-axle vehicle, regardless of the weight.",
+   "C)A vehicle pulling two trailers."
+  ],
+  "answer": "A)A three-axle vehicle if the Gross Vehicle Weight is less than 6,000 pounds."
+ },
+ {
+  "q": "Safely backing your vehicle requires all of the following, except:",
+  "choices": [
+   "A)Looking over your right shoulder as you back up.",
+   "B)Checking your vehicle's surroundings.",
+   "C)Tapping your horn before you back up."
+  ],
+  "answer": "C)Tapping your horn before you back up."
+ },
+ {
+  "q": "For which of the following traffic lights must you always stop your vehicle?",
+  "choices": [
+   "A)Solid red lights, flashing red lights, and blacked out traffic signals.",
+   "B)Solid red lights, red arrows, and flashing yellow lights.",
+   "C)Solid red lights, flashing red lights, and yellow lights."
+  ],
+  "answer": "A)Solid red lights, flashing red lights, and blacked out traffic signals."
+ },
+ {
+  "q": "This yellow signs means:",
+  "choices": [
+   "A)The road ahead has many curves.",
+   "B)There is a sharp curve in the road ahead.",
+   "C)The road ahead may be slippery."
+  ],
+  "answer": "C)The road ahead may be slippery."
+ },
+ {
+  "q": "This sign means:",
+  "choices": [
+   "A)Winding road ahead.",
+   "B)Do not enter.",
+   "C)Pedestrian crossing."
+  ],
+  "answer": "A)Winding road ahead."
+ },
+ {
+  "q": "You must yield to a pedestrian using a white cane or guide dog:",
+  "choices": [
+   "A)Only when the guide dog is leading the person across the street.",
+   "B)At all times.",
+   "C)Only if a crossing guard is present."
+  ],
+  "answer": "B)At all times."
+ },
+ {
+  "q": "Roads are slippery after it first starts to rain. When the road is slippery, you should:",
+  "choices": [
+   "A)Avoid making turns and stops while driving at high speeds.",
+   "B)Test your tires' traction while going uphill.",
+   "C)Decrease the distance you look ahead of your vehicle."
+  ],
+  "answer": "A)Avoid making turns and stops while driving at high speeds."
+ },
+ {
+  "q": "Always use your seat belt:",
+  "choices": [
+   "A)Unless the vehicle was built before 1978.",
+   "B)Unless you are in a limousine.",
+   "C)When the vehicle is equipped with seat belts."
+  ],
+  "answer": "C)When the vehicle is equipped with seat belts."
+ },
+ {
+  "q": "In rainy weather, you should be most careful when turning or stopping:",
+  "choices": [
+   "A)After it has been raining all day.",
+   "B)One half hour after it stops raining.",
+   "C)During the first half hour of rain."
+  ],
+  "answer": "C)During the first half hour of rain."
+ },
+ {
+  "q": "Two sets of solid double yellow lines that are two or more feet apart:",
+  "choices": [
+   "A)May be crossed to enter or exit a private driveway.",
+   "B)May not be crossed for any reason.",
+   "C)Should be treated as a separate traffic lane."
+  ],
+  "answer": "B)May not be crossed for any reason."
+ },
+ {
+  "q": "If you come to an intersection and your view to the side is blocked, you should:",
+  "choices": [
+   "A)Slow down and look both ways.",
+   "B)Maintain your speed and look both ways.",
+   "C)Stop, then inch forward until you can see clearly in both directions."
+  ],
+  "answer": "C)Stop, then inch forward until you can see clearly in both directions."
+ },
+ {
+  "q": "This road sign means:",
+  "choices": [
+   "A)Sharp right turn ahead.",
+   "B)A road joins from the right.",
+   "C)The road ahead turns sharply right then sharply left."
+  ],
+  "answer": "C)The road ahead turns sharply right then sharply left."
+ },
+ {
+  "q": "You are driving on a city street and see an emergency vehicle with flashing lights behind you. What should you do?",
+  "choices": [
+   "A)Drive to the right edge of the road and slow down.",
+   "B)Drive to the right edge of the road and stop.",
+   "C)Stay in your lane, slow down, and let it pass."
+  ],
+  "answer": "B)Drive to the right edge of the road and stop."
+ },
+ {
+  "q": "It is legal to drive with an alcoholic beverage container that has been opened only if the container is:",
+  "choices": [
+   "A)Under the front seat.",
+   "B)In the glove department.",
+   "C)In the trunk."
+  ],
+  "answer": "C)In the trunk."
+ },
+ {
+  "q": "You should not use your horn:",
+  "choices": [
+   "A)When visibility ahead is limited.",
+   "B)If you might hit another vehicle.",
+   "C)Near blind pedestrians."
+  ],
+  "answer": "C)Near blind pedestrians."
+ },
+ {
+  "q": "When driving in work zones, you should:",
+  "choices": [
+   "A)Follow the driver in front of you closely.",
+   "B)Pass the driver in front of you as soon as you can.",
+   "C)Avoid tailgating and keep a safe following distance."
+  ],
+  "answer": "C)Avoid tailgating and keep a safe following distance."
+ },
+ {
+  "q": "Which of these statements is true about roadwork zones?",
+  "choices": [
+   "A)Fines are the same for violations committed in work zones as they are under normal traffic conditions.",
+   "B)You must \"Slow for the Cone Zone.\"",
+   "C)Slow down only if you think workers are present."
+  ],
+  "answer": "B)You must \"Slow for the Cone Zone.\""
+ },
+ {
+  "q": "Before switching on the ignition, you should:",
+  "choices": [
+   "A)Buckle your safety belt.",
+   "B)Be sure all passengers have buckled their safety belts.",
+   "C)Both of the above."
+  ],
+  "answer": "C)Both of the above."
+ },
+ {
+  "q": "When driving in fog or mist, never put your headlights on the high beam setting because:",
+  "choices": [
+   "A)The light will reflect back into your eyes.",
+   "B)Approaching vehicles might not see you.",
+   "C)Vehicles behind you may follow too closely."
+  ],
+  "answer": "A)The light will reflect back into your eyes."
+ },
+ {
+  "q": "If you find yourself in a skid:",
+  "choices": [
+   "A)Brake lightly.",
+   "B)Stay off the brakes.",
+   "C)Brake abruptly."
+  ],
+  "answer": "B)Stay off the brakes."
+ },
+ {
+  "q": "If you see orange construction signs and cones on a freeway, you must:",
+  "choices": [
+   "A)Slow down because the lane ends ahead.",
+   "B)Be prepared for workers and equipment ahead.",
+   "C)Change lanes and maintain your current speed."
+  ],
+  "answer": "B)Be prepared for workers and equipment ahead."
+ },
+ {
+  "q": "Which of the following roadways freeze first when wet?",
+  "choices": [
+   "A)Bridges and overpasses",
+   "B)Intersections",
+   "C)Tunnels"
+  ],
+  "answer": "A)Bridges and overpasses"
+ },
+ {
+  "q": "You should always travel:",
+  "choices": [
+   "A)At the speed of vehicles surrounding you.",
+   "B)At the speed limit.",
+   "C)At a speed appropriate for road and weather conditions."
+  ],
+  "answer": "C)At a speed appropriate for road and weather conditions."
+ },
+ {
+  "q": "When turning left from a two-way street onto a one-way street, you should:",
+  "choices": [
+   "A)Turn into any lane.",
+   "B)Turn into first lane.",
+   "C)Turn into second lane."
+  ],
+  "answer": "B)Turn into first lane."
+ },
+ {
+  "q": "You exit the freeway on a ramp that curves downhill. You should:",
+  "choices": [
+   "A)Slow to a safe speed before the curve.",
+   "B)Slow to the posted speed limit for the freeway.",
+   "C)Wait until you have entered the curve to begin braking."
+  ],
+  "answer": "A)Slow to a safe speed before the curve."
+ },
+ {
+  "q": "Which of the following is not a safe driving practice when driving on the interstate?",
+  "choices": [
+   "A)Slower traffic must keep to the right.",
+   "B)Change lanes without signaling.",
+   "C)If you miss your exit, you must go to the next exit."
+  ],
+  "answer": "B)Change lanes without signaling"
+ },
+ {
+  "q": "Which of these is a safe driving technique?",
+  "choices": [
+   "A)Using your high beam lights in the fog.",
+   "B)Staring at the road ahead of your vehicle.",
+   "C)Checking your rearview mirrors frequently."
+  ],
+  "answer": "C)Checking your rearview mirrors frequently."
+ }
+]

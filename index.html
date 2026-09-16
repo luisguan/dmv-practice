@@ -7,7 +7,7 @@
 <meta name="description" content="California DMV Class C knowledge test practice in Chinese, with handbook-cited explanations.">
 <meta name="theme-color" content="#14532d">
 <!-- Bump ?v= on every asset when js/, css/ or data/ changes. See README. -->
-<link rel="stylesheet" href="css/styles.css?v=2">
+<link rel="stylesheet" href="css/styles.css?v=4">
 </head>
 <body>
 
@@ -66,6 +66,26 @@
       <button type="button" class="official-btn" data-official="4">樣題 4</button>
     </div>
 
+    <fieldset class="sources">
+      <legend class="sources__legend" data-t="sourcesLegend">題庫來源</legend>
+      <label class="source">
+        <input type="checkbox" data-source="official" checked>
+        <span class="source__text"><span class="source__name" data-t="srcOfficial"></span>
+          <span class="source__count" id="count-official"></span></span>
+      </label>
+      <label class="source">
+        <input type="checkbox" data-source="provided" checked>
+        <span class="source__text"><span class="source__name" data-t="srcProvided"></span>
+          <span class="source__count" id="count-provided"></span></span>
+      </label>
+      <label class="source">
+        <input type="checkbox" data-source="handbook">
+        <span class="source__text"><span class="source__name" data-t="srcHandbook"></span>
+          <span class="source__count" id="count-handbook"></span></span>
+      </label>
+      <p class="sources__note" data-t="sourcesNote"></p>
+    </fieldset>
+
     <button type="button" class="linkbtn" id="reset-btn" data-t="resetProgress">清除學習紀錄</button>
 
     <p class="disclaimer" data-t="disclaimer"></p>
@@ -86,6 +106,7 @@
 
     <div class="qcard">
       <p class="qcard__source" id="q-source"></p>
+      <div class="qcard__sign" id="q-sign" hidden></div>
       <p class="qcard__text" id="q-text"></p>
       <div class="choices" id="choices" role="group"></div>
       <div class="feedback" id="feedback" hidden></div>
@@ -111,17 +132,24 @@
 
 </main>
 
-<script src="data/bank.js?v=2"></script>
-<script src="data/official.js?v=2"></script>
-<script src="data/handbook-1.js?v=2"></script>
-<script src="data/handbook-2.js?v=2"></script>
-<script src="data/handbook-3.js?v=2"></script>
-<script src="data/handbook-4.js?v=2"></script>
-<script src="data/en-official.js?v=2"></script>
-<script src="data/en-handbook-1.js?v=2"></script>
-<script src="data/en-handbook-2.js?v=2"></script>
-<script src="js/i18n.js?v=2"></script>
-<script src="js/storage.js?v=2"></script>
-<script src="js/app.js?v=2"></script>
+<script src="data/bank.js?v=4"></script>
+<script src="data/official.js?v=4"></script>
+<script src="data/handbook-1.js?v=4"></script>
+<script src="data/handbook-2.js?v=4"></script>
+<script src="data/handbook-3.js?v=4"></script>
+<script src="data/handbook-4.js?v=4"></script>
+<script src="data/en-official.js?v=4"></script>
+<script src="data/en-handbook-1.js?v=4"></script>
+<script src="data/en-handbook-2.js?v=4"></script>
+<script src="data/signs.js?v=4"></script>
+<script src="data/provided-1.js?v=4"></script>
+<script src="data/provided-2.js?v=4"></script>
+<script src="data/provided-3.js?v=4"></script>
+<script src="data/provided-4.js?v=4"></script>
+<script src="data/provided-5.js?v=4"></script>
+<script src="data/provided-signs.js?v=4"></script>
+<script src="js/i18n.js?v=4"></script>
+<script src="js/storage.js?v=4"></script>
+<script src="js/app.js?v=4"></script>
 </body>
 </html>

@@ -24,6 +24,30 @@
 window.QUESTION_BANK = [];
 window.Q = function (question) { window.QUESTION_BANK.push(question); };
 
+/* Compact form for the user-provided bank (source 'provided').
+
+   Those questions arrive with an answer already attached, which this project
+   verified against the handbook, so they carry a `rationale` and a page
+   citation but no per-distractor `whyWrong` -- writing three languages of
+   explanation for every distractor of ~190 questions buys little when many of
+   them restate a rule another question already covers. renderFeedback() and
+   the validator both treat whyWrong as optional for this source.
+
+   P({ id, topic, page, sec:[hant,hans,en], answer,
+       hant:[q, ...choices], hans:[...], en:[...],
+       why:[hant, hans, en], sign:'<key into window.SIGNS>' })              */
+window.P = function (d) {
+  window.QUESTION_BANK.push({
+    id: d.id, source: 'provided', topic: d.topic, answer: d.answer, sign: d.sign || null,
+    ref: { page: d.page, section: { hant: d.sec[0], hans: d.sec[1], en: d.sec[2] } },
+    hant: { q: d.hant[0], choices: d.hant.slice(1) },
+    hans: { q: d.hans[0], choices: d.hans.slice(1) },
+    en:   { q: d.en[0],   choices: d.en.slice(1) },
+    rationale: { hant: d.why[0], hans: d.why[1], en: d.why[2] },
+    whyWrong: d.hant.slice(1).map(function () { return null; })
+  });
+};
+
 /* Attach the English rendering of one question. `whyWrong` here is a flat array
    of strings aligned with the existing choices, null at the answer index. */
 window.EN = function (id, en) {

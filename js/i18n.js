@@ -19,6 +19,15 @@ window.I18N = {
     modeOfficialDesc: 'DMV 網站公佈的四份樣本試題，原文照錄。',
     officialTest: '樣題',
 
+    sourcesLegend: '題庫來源',
+    srcOfficial: 'DMV 官方樣題',
+    srcProvided: '您提供的題庫',
+    srcHandbook: '本程式依手冊自編的題目',
+    sourceCount: (n) => `${n} 題`,
+    sourcesNote: '至少須選擇一項。取消全部選項時會自動恢復 DMV 官方樣題。「官方樣題」模式不受此設定影響。',
+    sourceProvided: '您提供的題庫（已對照手冊核實）',
+    noSourcesSelected: '目前選擇的題庫沒有題目。請在主頁的「題庫來源」中多選一項。',
+
     resetProgress: '清除學習紀錄',
     resetConfirm: '確定要清除所有學習紀錄嗎？此動作無法復原。',
     disclaimer: '非官方學習工具。答案與解釋均依據《加州駕駛員手冊》（中文版）編寫並標明頁碼，方便查證。正式規定以 DMV 公佈者為準。',
@@ -65,6 +74,15 @@ window.I18N = {
     modeOfficialDesc: 'DMV 网站公布的四份样本试题，原文照录。',
     officialTest: '样题',
 
+    sourcesLegend: '题库来源',
+    srcOfficial: 'DMV 官方样题',
+    srcProvided: '您提供的题库',
+    srcHandbook: '本程序依手册自编的题目',
+    sourceCount: (n) => `${n} 题`,
+    sourcesNote: '至少须选择一项。取消全部选项时会自动恢复 DMV 官方样题。「官方样题」模式不受此设置影响。',
+    sourceProvided: '您提供的题库（已对照手册核实）',
+    noSourcesSelected: '当前选择的题库没有题目。请在主页的「题库来源」中多选一项。',
+
     resetProgress: '清除学习记录',
     resetConfirm: '确定要清除所有学习记录吗？此操作无法撤销。',
     disclaimer: '非官方学习工具。答案与解释均依据《加州驾驶员手册》（中文版）编写并标明页码，方便查证。正式规定以 DMV 公布者为准。',
@@ -110,6 +128,15 @@ window.I18N = {
     modeOfficial: 'Official samples',
     modeOfficialDesc: 'The four sample tests published by DMV, word for word.',
     officialTest: 'Test',
+
+    sourcesLegend: 'Question sources',
+    srcOfficial: 'DMV official samples',
+    srcProvided: 'Your question bank',
+    srcHandbook: 'Written by this app from the handbook',
+    sourceCount: (n) => `${n} questions`,
+    sourcesNote: 'At least one must stay selected; clearing them all restores the DMV samples. Official samples mode ignores this setting.',
+    sourceProvided: 'Your question bank (checked against the handbook)',
+    noSourcesSelected: 'No questions in the selected sources. Tick another box under Question sources on the home screen.',
 
     resetProgress: 'Clear study history',
     resetConfirm: 'Clear all study history? This cannot be undone.',

@@ -25,11 +25,19 @@
 <script src="../data/en-official.js"></script>
 <script src="../data/en-handbook-1.js"></script>
 <script src="../data/en-handbook-2.js"></script>
+<script src="../data/signs.js"></script>
+<script src="../data/provided-1.js"></script>
+<script src="../data/provided-2.js"></script>
+<script src="../data/provided-3.js"></script>
+<script src="../data/provided-4.js"></script>
+<script src="../data/provided-5.js"></script>
+<script src="../data/provided-signs.js"></script>
 <script src="validate-bank.js"></script>
 <script>
   var r = window.validateBank();
   var html = '<p>total <b>' + r.total + '</b> &middot; shuffled pool <b>' + r.pool +
-             '</b> &middot; official <b>' + r.official + '</b> &middot; handbook <b>' + r.handbook + '</b></p>';
+             '</b> &middot; official <b>' + r.official + '</b> &middot; provided <b>' + r.provided +
+             '</b> &middot; handbook <b>' + r.handbook + '</b> &middot; with signs <b>' + r.signs + '</b></p>';
 
   html += r.errors.length
     ? '<p class="bad">' + r.errors.length + ' ERROR(S)</p><ul><li>' + r.errors.join('</li><li>') + '</li></ul>'

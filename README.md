@@ -67,18 +67,72 @@ half-updated load degrades to the wrong language rather than a blank screen.
 Exam modes withhold all feedback until the end, like the real test. Practice
 modes explain as you go.
 
+## Question sources
+
+The home screen has a **Question sources** setting with three checkboxes. Each
+question is tagged with where it came from, and the mock exam, renewal exam,
+practice, and review modes draw only from the ticked sources. (Official samples
+mode always shows the real sample tests regardless of the setting.)
+
+| Source | Count | Default |
+| --- | --- | --- |
+| DMV official samples | 38 | on |
+| Your question bank | 166 | on |
+| Written by this app from the handbook | 80 | **off** |
+
+Turning every source off is not possible -- clearing the last one re-enables the
+DMV samples rather than leaving an empty app.
+
 ## The question bank
 
-120 questions in `data/`:
+286 questions in `data/`:
 
 - **40 official** (`official.js`) — every question from DMV's four Chinese
   sample tests, Traditional text **verbatim**. Two of them repeat earlier ones,
   so they carry `dupeOf` and are kept out of the shuffled pool while still
   appearing in their own sample test. That leaves 118 in the pool.
+- **166 from the user-supplied bank** (`provided-1.js` … `provided-5.js`,
+  `provided-signs.js`) — the rules tested by a question bank supplied by the
+  user, each answer checked against the handbook and carrying its page. These
+  use `P()`, a compact authoring form, and carry a rationale and citation but no
+  per-distractor explanation.
 - **80 handbook-derived** (`handbook-1.js` … `handbook-4.js`) — written from the
   Chinese handbook to cover topics the samples underweight: right-of-way,
   bicycles and motorcycles, DUI limits, lane markings, freeway merging, school
   and work zones, adverse conditions, insurance and registration.
+
+### What was rejected from the supplied bank
+
+Of 246 parsed questions, 80 did not make it in:
+
+- **Three answers contradicted the handbook** and were dropped: a left turn from
+  a one-way street placed in the *right* curb lane (p.22 says far-left), a
+  tailgater answered by *slowing down* (p.57 says maintain your speed, then
+  merge right), and two sets of double yellow lines described as impassable
+  "for any reason" (p.13 permits designated openings). Two of those also
+  contradicted other questions in the same bank.
+- **Two were inconsistent**: a school bus answer requiring the bus to resume
+  motion (p.51 ends the duty when the lights stop flashing), and a tire blowout
+  answered with "use the brakes lightly" (p.68 prescribes easing off the
+  accelerator and warns braking can cause a loss of control).
+- **Around ten could not be cited to the handbook**, including the Class C
+  three-axle/6,000 lb rule (true under CVC 12804.9, simply not in the handbook),
+  a 35 mph hydroplaning threshold, and "BAC of 0.02% doubles your chances".
+- **One conflicted with DMV's own sample answer** on how long to wait for a
+  pedestrian after a flashing DON'T WALK -- the same question already flagged
+  under Accuracy and limits below.
+- **The rest were duplicates.** The bank asked about flashing yellow lights six
+  times and fog headlights four times.
+
+### Sign questions
+
+26 questions showed a sign image and asked what it meant, so their text alone
+was useless. `data/signs.js` draws 19 signs as inline SVG -- the 26 collapse
+because several asked about the same sign -- and the artwork appears on the
+**question** side. Traffic control devices are standard government designs, so
+drawing them keeps the app offline-capable, crisp at any text size, and free of
+any external image host. Each SVG carries an `aria-label` describing its
+*appearance* only; describing its meaning would give the answer away.
 
 Every question carries all three languages, a rationale, a one-line explanation
 for **each** wrong choice, and a handbook page number.

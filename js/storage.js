@@ -6,9 +6,14 @@ window.Store = (function () {
 
   var LANGS = ['hant', 'hans', 'en'];
 
+  var SOURCES = ['official', 'provided', 'handbook'];
+
   var DEFAULTS = {
     lang: 'hant',
     size: 1,
+    // Default: the questions that came from DMV or from the user. This
+    // project's own handbook-derived questions are opt-in.
+    sources: { official: true, provided: true, handbook: false },
     // id -> { seen, wrong, streak }  streak = consecutive correct answers
     stats: {}
   };
@@ -26,6 +31,13 @@ window.Store = (function () {
         lang: LANGS.indexOf(parsed.lang || parsed.script) >= 0
                 ? (parsed.lang || parsed.script) : 'hant',
         size: [1, 2, 3].indexOf(parsed.size) >= 0 ? parsed.size : 1,
+        sources: (function () {
+          var out = {}, saved = parsed.sources || {};
+          SOURCES.forEach(function (k) {
+            out[k] = typeof saved[k] === 'boolean' ? saved[k] : DEFAULTS.sources[k];
+          });
+          return out;
+        })(),
         stats: parsed.stats && typeof parsed.stats === 'object' ? parsed.stats : {}
       };
     } catch (e) {
@@ -47,6 +59,17 @@ window.Store = (function () {
   return {
     getLang: function () { return state.lang; },
     setLang: function (l) { state.lang = LANGS.indexOf(l) >= 0 ? l : 'hant'; save(); },
+
+    getSources: function () { return state.sources; },
+    isSourceOn: function (k) { return !!state.sources[k]; },
+    setSource: function (k, on) {
+      if (SOURCES.indexOf(k) < 0) return;
+      state.sources[k] = !!on;
+      // Never leave every source off -- that would empty the app with no
+      // obvious way back. Turning the last one off re-enables the DMV set.
+      if (!SOURCES.some(function (s2) { return state.sources[s2]; })) state.sources.official = true;
+      save();
+    },
 
     getSize: function () { return state.size; },
     setSize: function (n) { state.size = n; save(); },
