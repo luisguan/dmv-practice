@@ -90,7 +90,7 @@ DMV samples rather than leaving an empty app.
 - **40 official** (`official.js`) — every question from DMV's four Chinese
   sample tests, Traditional text **verbatim**. Two of them repeat earlier ones,
   so they carry `dupeOf` and are kept out of the shuffled pool while still
-  appearing in their own sample test. That leaves 118 in the pool.
+  appearing in their own sample test. That leaves 284 in the pool overall.
 - **166 from the user-supplied bank** (`provided-1.js` … `provided-5.js`,
   `provided-signs.js`) — the rules tested by a question bank supplied by the
   user, each answer checked against the handbook and carrying its page. These
@@ -134,8 +134,11 @@ drawing them keeps the app offline-capable, crisp at any text size, and free of
 any external image host. Each SVG carries an `aria-label` describing its
 *appearance* only; describing its meaning would give the answer away.
 
-Every question carries all three languages, a rationale, a one-line explanation
-for **each** wrong choice, and a handbook page number.
+Every question carries all three languages, a rationale, and a handbook page
+number. The official and handbook questions additionally carry a one-line
+explanation for **each** wrong choice; the supplied bank does not, so its
+feedback card shows the choice picked, the correct answer with its rationale,
+and the citation.
 
 English lives in separate overlay files (`en-official.js`, `en-handbook-1.js`,
 `en-handbook-2.js`) that attach to a question by id via `EN()`. Keeping it apart
